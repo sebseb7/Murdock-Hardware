@@ -1,0 +1,7 @@
+*.l#*
+*.s#*
+*.b#*
+*.o
+*.bin
+*.elf
+tools/lpcrc/lpcrc

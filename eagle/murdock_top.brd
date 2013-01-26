@@ -6,9 +6,9 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -28,16 +28,16 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="14" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="12" fill="1" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="12" fill="1" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -120,36 +120,34 @@
 <hole x="36.195" y="8.255" drill="3"/>
 <hole x="23.1775" y="8.255" drill="3"/>
 <hole x="10.16" y="8.255" drill="3"/>
-<text x="7.366" y="25.146" size="0.8128" layer="21" font="vector" ratio="12">GPS</text>
-<text x="7.366" y="21.463" size="0.8128" layer="21" font="vector" ratio="12">RC</text>
-<text x="7.366" y="28.829" size="0.8128" layer="21" font="vector" ratio="12">AUX</text>
-<text x="39.835" y="29.591" size="0.8128" layer="21" font="vector" ratio="12" rot="R180">Mag.</text>
-<text x="39.835" y="25.908" size="0.8128" layer="21" font="vector" ratio="12" rot="R180">Gyro</text>
+<text x="7.366" y="25.146" size="0.8128" layer="21" font="vector" ratio="12">GPS OK</text>
+<text x="7.366" y="21.463" size="0.8128" layer="21" font="vector" ratio="12">RC OK</text>
+<text x="7.366" y="28.829" size="0.8128" layer="21" font="vector" ratio="12">AUX OK</text>
+<text x="38.935" y="29.591" size="0.8128" layer="21" font="vector" ratio="12" rot="R180">Mag</text>
+<text x="39.535" y="25.908" size="0.8128" layer="21" font="vector" ratio="12" rot="R180">Gyro</text>
 <text x="39.835" y="22.225" size="0.8128" layer="21" font="vector" ratio="12" rot="R180">Stick</text>
-<text x="9.8425" y="4.445" size="0.8128" layer="21" font="vector" ratio="12">A</text>
-<text x="22.5425" y="4.445" size="0.8128" layer="21" font="vector" ratio="12">B</text>
-<text x="35.8775" y="4.7625" size="0.8128" layer="21" font="vector" ratio="12">C</text>
+<text x="9.6425" y="4.445" size="1.4224" layer="21" font="vector" ratio="12">A</text>
+<text x="22.7425" y="4.345" size="1.4224" layer="21" font="vector" ratio="12">B</text>
+<text x="35.6775" y="4.445" size="1.4224" layer="21" font="vector" ratio="12">C</text>
 <text x="39.8" y="16.256" size="0.8128" layer="21" font="vector" ratio="12" rot="R180">Setup</text>
 <wire x1="23.2775" y1="15.34" x2="23.595" y2="15.34" width="0.4064" layer="21" curve="-357.397438"/>
-<text x="-5.47" y="21" size="0.8128" layer="21" font="vector" ratio="12">Return</text>
-<text x="-4.835" y="19.77" size="0.8128" layer="21" font="vector" ratio="12">Home</text>
-<text x="-5.47" y="16.675" size="0.8128" layer="21" font="vector" ratio="12">Level</text>
-<text x="-5.47" y="15.445" size="0.8128" layer="21" font="vector" ratio="12">Flight</text>
-<text x="36.703" y="19.05" size="0.8128" layer="21" font="vector" ratio="12" rot="SR0">Calibrate</text>
+<text x="7.865" y="17.29" size="0.8128" layer="21" font="vector" ratio="12">Return</text>
+<text x="8.5" y="16.26" size="0.8128" layer="21" font="vector" ratio="12">Home</text>
+<text x="8.19" y="14.36" size="0.8128" layer="21" font="vector" ratio="12">Level</text>
+<text x="8.09" y="13.23" size="0.8128" layer="21" font="vector" ratio="12">Flight</text>
+<text x="36.603" y="19.05" size="0.8128" layer="21" font="vector" ratio="12" rot="SR0">Calibrate</text>
 <wire x1="43.18" y1="31.115" x2="43.18" y2="18.161" width="0.254" layer="21"/>
 <wire x1="43.18" y1="18.161" x2="36.068" y2="18.161" width="0.254" layer="21"/>
 <wire x1="36.068" y1="18.161" x2="36.068" y2="31.115" width="0.254" layer="21"/>
 <wire x1="36.068" y1="31.115" x2="43.18" y2="31.115" width="0.254" layer="21"/>
-<wire x1="-5.1275" y1="23.3125" x2="-2.305" y2="23.3125" width="0.4064" layer="21"/>
-<wire x1="-5.7625" y1="18.315" x2="-5.245" y2="18.315" width="0.4064" layer="21"/>
-<wire x1="-4.6625" y1="18.315" x2="-4.145" y2="18.315" width="0.4064" layer="21"/>
-<wire x1="-3.5625" y1="18.315" x2="-3.045" y2="18.315" width="0.4064" layer="21"/>
-<wire x1="3.865" y1="31.115" x2="10.16" y2="31.115" width="0.254" layer="21"/>
-<wire x1="3.865" y1="18.161" x2="3.865" y2="31.115" width="0.254" layer="21"/>
-<wire x1="10.16" y1="31.115" x2="10.16" y2="18.161" width="0.254" layer="21"/>
-<text x="5.25" y="19.05" size="0.8128" layer="21" font="vector" ratio="12" rot="SR0">Online</text>
-<wire x1="3.865" y1="18.161" x2="10.16" y2="18.161" width="0.254" layer="21"/>
-<text x="7.366" y="15.494" size="0.8128" layer="21" font="vector" ratio="12">Mode</text>
+<wire x1="8.4075" y1="18.5325" x2="11.23" y2="18.5325" width="0.4064" layer="21"/>
+<wire x1="8.2975" y1="15.6" x2="8.815" y2="15.6" width="0.4064" layer="21"/>
+<wire x1="9.3975" y1="15.6" x2="9.915" y2="15.6" width="0.4064" layer="21"/>
+<wire x1="10.4975" y1="15.6" x2="11.015" y2="15.6" width="0.4064" layer="21"/>
+<wire x1="3.865" y1="31.115" x2="12.7" y2="31.115" width="0.254" layer="21"/>
+<wire x1="3.865" y1="19.431" x2="3.865" y2="31.115" width="0.254" layer="21"/>
+<wire x1="12.7" y1="31.115" x2="12.7" y2="19.431" width="0.254" layer="21"/>
+<wire x1="3.865" y1="19.431" x2="12.7" y2="19.431" width="0.254" layer="21"/>
 </plain>
 <libraries>
 <library name="seb">
@@ -475,41 +473,127 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="LED1" library="seb" package="LGM47K" value="" x="41.365" y="21.844" rot="MR0"/>
-<element name="LED2" library="seb" package="LGM47K" value="" x="5.665" y="21.844" rot="MR180"/>
-<element name="LED3" library="seb" package="LGM47K" value="" x="5.665" y="25.527" rot="MR180"/>
-<element name="LED4" library="seb" package="LGM47K" value="" x="5.665" y="15.875" rot="MR180"/>
-<element name="LED5" library="seb" package="LGM47K" value="" x="18.54201875" y="17.312034375" rot="MR315"/>
-<element name="LED6" library="seb" package="LGM47K" value="" x="5.665" y="29.21" rot="MR180"/>
-<element name="LED7" library="seb" package="LGM47K" value="" x="18.525" y="27.335" rot="MR45"/>
-<element name="LED8" library="seb" package="LGM47K" value="" x="16.495" y="22.385" rot="MR0"/>
-<element name="LED9" library="seb" package="LGM47K" value="" x="23.495" y="15.385" rot="MR90"/>
-<element name="LED10" library="seb" package="LGM47K" value="" x="30.495" y="22.385" rot="MR180"/>
-<element name="LED11" library="seb" package="LGM47K" value="" x="28.386975" y="27.3398" rot="MR135"/>
-<element name="LED12" library="seb" package="LGM47K" value="" x="23.495" y="29.385" rot="MR180"/>
-<element name="LED13" library="seb" package="LGM47K" value="" x="28.4575" y="17.445" rot="MR225"/>
-<element name="LED14" library="seb" package="LGM47K" value="" x="41.365" y="15.875" rot="MR0"/>
-<element name="LED15" library="seb" package="LGM47K" value="" x="41.365" y="29.21" rot="MR0"/>
-<element name="LED16" library="seb" package="LGM47K" value="" x="41.365" y="25.527" rot="MR0"/>
-<element name="IC1" library="74xx-eu" package="SO16" value="74HC595D" x="16.51" y="8.5725" rot="MR90"/>
-<element name="IC2" library="74xx-eu" package="SO16" value="74HC595D" x="29.5275" y="8.5725" rot="MR270"/>
-<element name="R1" library="SparkFun-Passives" package="0402-RES" value="" x="23.4475" y="18.83" rot="MR270"/>
-<element name="R2" library="SparkFun-Passives" package="0402-RES" value="" x="32.325" y="20.1025" rot="MR90"/>
-<element name="R3" library="SparkFun-Passives" package="0402-RES" value="" x="31.995" y="27.4975" rot="MR90"/>
-<element name="R4" library="SparkFun-Passives" package="0402-RES" value="" x="26.3875" y="30.035" rot="MR270"/>
-<element name="R5" library="SparkFun-Passives" package="0402-RES" value="" x="31.565" y="16.42" rot="MR90"/>
-<element name="R6" library="SparkFun-Passives" package="0402-RES" value="" x="41.335" y="11.3475" rot="MR90"/>
-<element name="R7" library="SparkFun-Passives" package="0402-RES" value="" x="37.17" y="29.145" rot="MR180"/>
-<element name="R8" library="SparkFun-Passives" package="0402-RES" value="" x="37.735" y="24.76" rot="MR90"/>
-<element name="R9" library="SparkFun-Passives" package="0402-RES" value="" x="13.97" y="19.685" rot="MR90"/>
-<element name="R10" library="SparkFun-Passives" package="0402-RES" value="" x="15.5575" y="29.21" rot="MR180"/>
-<element name="R11" library="SparkFun-Passives" package="0402-RES" value="" x="9.525" y="29.21" rot="MR90"/>
-<element name="R12" library="SparkFun-Passives" package="0402-RES" value="" x="15.24" y="16.8275" rot="MR90"/>
-<element name="R13" library="SparkFun-Passives" package="0402-RES" value="" x="4.7625" y="11.7475" rot="MR90"/>
-<element name="R14" library="SparkFun-Passives" package="0402-RES" value="" x="9.525" y="26.035" rot="MR90"/>
-<element name="R15" library="SparkFun-Passives" package="0402-RES" value="" x="8.89" y="23.1775" rot="MR90"/>
-<element name="R16" library="SparkFun-Passives" package="0402-RES" value="" x="39.305" y="19.5375" rot="MR90"/>
-<element name="X1" library="murdock" package="MURDOCK_STACK" value="MURDOCK_STACK" x="0" y="31.75" rot="R270"/>
+<element name="LED1" library="seb" package="LGM47K" value="" x="41.365" y="21.844" smashed="yes" rot="MR0">
+<attribute name="NAME" x="43.015" y="19.344" size="0.8128" layer="22" font="vector" ratio="10" rot="MR0"/>
+</element>
+<element name="LED2" library="seb" package="LGM47K" value="" x="5.665" y="21.844" smashed="yes" rot="MR180">
+<attribute name="NAME" x="3.915" y="20.144" size="0.8128" layer="22" font="vector" ratio="10" rot="MR180"/>
+</element>
+<element name="LED3" library="seb" package="LGM47K" value="" x="5.665" y="25.527" smashed="yes" rot="MR180">
+<attribute name="NAME" x="10.515" y="25.527" size="0.8128" layer="22" font="vector" ratio="10" rot="MR180"/>
+</element>
+<element name="LED4" library="seb" package="LGM47K" value="" x="5.665" y="15.875" smashed="yes" rot="MR180">
+<attribute name="NAME" x="4.115" y="18.275" size="0.8128" layer="22" font="vector" ratio="10" rot="MR180"/>
+</element>
+<element name="LED5" library="seb" package="LGM47K" value="" x="18.54201875" y="17.312034375" smashed="yes" rot="MR315">
+<attribute name="NAME" x="21.405803125" y="16.3574375" size="0.8128" layer="22" font="vector" ratio="10" rot="MR315"/>
+</element>
+<element name="LED6" library="seb" package="LGM47K" value="" x="5.665" y="29.21" smashed="yes" rot="MR180">
+<attribute name="NAME" x="4.015" y="31.61" size="0.8128" layer="22" font="vector" ratio="10" rot="MR180"/>
+</element>
+<element name="LED7" library="seb" package="LGM47K" value="" x="18.525" y="27.335" smashed="yes" rot="MR45">
+<attribute name="NAME" x="17.97040625" y="24.471215625" size="0.8128" layer="22" font="vector" ratio="10" rot="MR45"/>
+</element>
+<element name="LED8" library="seb" package="LGM47K" value="" x="16.495" y="22.385" smashed="yes" rot="MR0">
+<attribute name="NAME" x="17.845" y="19.985" size="0.8128" layer="22" font="vector" ratio="10" rot="MR0"/>
+</element>
+<element name="LED9" library="seb" package="LGM47K" value="" x="23.495" y="15.385" smashed="yes" rot="MR90">
+<attribute name="NAME" x="25.195" y="13.835" size="0.8128" layer="22" font="vector" ratio="10" rot="MR90"/>
+</element>
+<element name="LED10" library="seb" package="LGM47K" value="" x="30.495" y="22.385" smashed="yes" rot="MR180">
+<attribute name="NAME" x="28.545" y="24.785" size="0.8128" layer="22" font="vector" ratio="10" rot="MR180"/>
+</element>
+<element name="LED11" library="seb" package="LGM47K" value="" x="28.386975" y="27.3398" smashed="yes" rot="MR135">
+<attribute name="NAME" x="23.62319375" y="23.29439375" size="0.8128" layer="22" font="vector" ratio="10" rot="MR135"/>
+</element>
+<element name="LED12" library="seb" package="LGM47K" value="" x="23.495" y="29.385" smashed="yes" rot="MR180">
+<attribute name="NAME" x="20.845" y="27.785" size="0.8128" layer="22" font="vector" ratio="10" rot="MR180"/>
+</element>
+<element name="LED13" library="seb" package="LGM47K" value="" x="28.4575" y="17.445" smashed="yes" rot="MR225">
+<attribute name="NAME" x="28.312096875" y="20.90878125" size="0.8128" layer="22" font="vector" ratio="10" rot="MR225"/>
+</element>
+<element name="LED14" library="seb" package="LGM47K" value="" x="41.365" y="15.875" smashed="yes" rot="MR0">
+<attribute name="NAME" x="42.915" y="13.275" size="0.8128" layer="22" font="vector" ratio="10" rot="MR0"/>
+</element>
+<element name="LED15" library="seb" package="LGM47K" value="" x="41.365" y="29.21" smashed="yes" rot="MR0">
+<attribute name="NAME" x="43.615" y="30.71" size="0.8128" layer="22" font="vector" ratio="10" rot="MR0"/>
+</element>
+<element name="LED16" library="seb" package="LGM47K" value="" x="41.365" y="25.527" smashed="yes" rot="MR0">
+<attribute name="NAME" x="38.815" y="26.327" size="0.8128" layer="22" font="vector" ratio="10" rot="MR0"/>
+</element>
+<element name="IC1" library="74xx-eu" package="SO16" value="74HC595D" x="16.51" y="8.5725" smashed="yes" rot="MR90">
+<attribute name="VALUE" x="15.748" y="4.7625" size="1.27" layer="28" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="15.105" y="2.9115" size="0.8128" layer="26" font="vector" ratio="10" rot="MR180"/>
+</element>
+<element name="IC2" library="74xx-eu" package="SO16" value="74HC595D" x="29.5275" y="8.5725" smashed="yes" rot="MR270">
+<attribute name="VALUE" x="30.2895" y="12.3825" size="1.27" layer="28" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="30.3325" y="2.2335" size="0.8128" layer="26" font="vector" ratio="10" rot="MR0"/>
+</element>
+<element name="R1" library="SparkFun-Passives" package="0402-RES" value="" x="23.4475" y="18.83" smashed="yes" rot="MR270">
+<attribute name="NAME" x="22.649" y="19.719" size="0.8128" layer="26" font="vector" ratio="10" rot="MR270"/>
+<attribute name="VALUE" x="24.5905" y="19.9095" size="0.4064" layer="28" rot="MR270"/>
+</element>
+<element name="R2" library="SparkFun-Passives" package="0402-RES" value="" x="32.325" y="19.3025" smashed="yes" rot="MR90">
+<attribute name="NAME" x="33.2235" y="18.8135" size="0.8128" layer="26" font="vector" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="31.182" y="18.223" size="0.4064" layer="28" rot="MR90"/>
+</element>
+<element name="R3" library="SparkFun-Passives" package="0402-RES" value="" x="31.995" y="27.4975" smashed="yes" rot="MR90">
+<attribute name="NAME" x="32.6935" y="26.6085" size="0.8128" layer="26" font="vector" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="30.852" y="26.418" size="0.4064" layer="28" rot="MR90"/>
+</element>
+<element name="R4" library="SparkFun-Passives" package="0402-RES" value="" x="26.3875" y="30.035" smashed="yes" rot="MR270">
+<attribute name="NAME" x="27.989" y="30.924" size="0.8128" layer="26" font="vector" ratio="10" rot="MR270"/>
+<attribute name="VALUE" x="27.5305" y="31.1145" size="0.4064" layer="28" rot="MR270"/>
+</element>
+<element name="R5" library="SparkFun-Passives" package="0402-RES" value="" x="31.565" y="16.42" smashed="yes" rot="MR90">
+<attribute name="NAME" x="32.2635" y="15.531" size="0.8128" layer="26" font="vector" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="30.422" y="15.3405" size="0.4064" layer="28" rot="MR90"/>
+</element>
+<element name="R6" library="SparkFun-Passives" package="0402-RES" value="" x="41.335" y="11.3475" smashed="yes" rot="MR90">
+<attribute name="NAME" x="42.1335" y="10.6585" size="0.8128" layer="26" font="vector" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="40.192" y="10.268" size="0.4064" layer="28" rot="MR90"/>
+</element>
+<element name="R7" library="SparkFun-Passives" package="0402-RES" value="" x="37.17" y="29.145" smashed="yes" rot="MR180">
+<attribute name="NAME" x="36.281" y="28.4465" size="0.8128" layer="26" font="vector" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="36.0905" y="30.288" size="0.4064" layer="28" rot="MR180"/>
+</element>
+<element name="R8" library="SparkFun-Passives" package="0402-RES" value="" x="37.735" y="24.76" smashed="yes" rot="MR90">
+<attribute name="NAME" x="36.0335" y="24.171" size="0.8128" layer="26" font="vector" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="36.592" y="23.6805" size="0.4064" layer="28" rot="MR90"/>
+</element>
+<element name="R9" library="SparkFun-Passives" package="0402-RES" value="" x="13.97" y="19.685" smashed="yes" rot="MR90">
+<attribute name="NAME" x="12.3685" y="18.996" size="0.8128" layer="26" font="vector" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="12.827" y="18.6055" size="0.4064" layer="28" rot="MR90"/>
+</element>
+<element name="R10" library="SparkFun-Passives" package="0402-RES" value="" x="15.5575" y="29.21" smashed="yes" rot="MR180">
+<attribute name="NAME" x="14.3685" y="30.8115" size="0.8128" layer="26" font="vector" ratio="10" rot="MR180"/>
+<attribute name="VALUE" x="14.478" y="30.353" size="0.4064" layer="28" rot="MR180"/>
+</element>
+<element name="R11" library="SparkFun-Passives" package="0402-RES" value="" x="9.525" y="29.21" smashed="yes" rot="MR90">
+<attribute name="NAME" x="10.2235" y="28.321" size="0.8128" layer="26" font="vector" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="8.382" y="28.1305" size="0.4064" layer="28" rot="MR90"/>
+</element>
+<element name="R12" library="SparkFun-Passives" package="0402-RES" value="" x="15.24" y="16.8275" smashed="yes" rot="MR90">
+<attribute name="NAME" x="13.6385" y="15.7385" size="0.8128" layer="26" font="vector" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="14.097" y="15.748" size="0.4064" layer="28" rot="MR90"/>
+</element>
+<element name="R13" library="SparkFun-Passives" package="0402-RES" value="" x="4.7625" y="11.7475" smashed="yes" rot="MR90">
+<attribute name="NAME" x="5.561" y="10.7585" size="0.8128" layer="26" font="vector" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="3.6195" y="10.668" size="0.4064" layer="28" rot="MR90"/>
+</element>
+<element name="R14" library="SparkFun-Passives" package="0402-RES" value="" x="9.525" y="26.035" smashed="yes" rot="MR90">
+<attribute name="NAME" x="12.254" y="26.4235" size="0.8128" layer="26" font="vector" ratio="10" rot="MR0"/>
+<attribute name="VALUE" x="8.382" y="24.9555" size="0.4064" layer="28" rot="MR90"/>
+</element>
+<element name="R15" library="SparkFun-Passives" package="0402-RES" value="" x="8.89" y="23.1775" smashed="yes" rot="MR90">
+<attribute name="NAME" x="9.5885" y="22.2885" size="0.8128" layer="26" font="vector" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="7.747" y="22.098" size="0.4064" layer="28" rot="MR90"/>
+</element>
+<element name="R16" library="SparkFun-Passives" package="0402-RES" value="" x="39.305" y="19.5375" smashed="yes" rot="MR90">
+<attribute name="NAME" x="37.6035" y="18.4485" size="0.8128" layer="26" font="vector" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="38.162" y="18.458" size="0.4064" layer="28" rot="MR90"/>
+</element>
+<element name="X1" library="murdock" package="MURDOCK_STACK" value="MURDOCK_STACK" x="0" y="31.75" smashed="yes" rot="R270"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -533,22 +617,14 @@ design rules under a new name.</description>
 <wire x1="19.5834" y1="7.9375" x2="17.78" y2="7.9375" width="0.4064" layer="16"/>
 <wire x1="17.78" y1="7.9375" x2="17.4625" y2="7.62" width="0.4064" layer="16"/>
 <via x="17.4625" y="7.62" extent="1-16" drill="0.4"/>
-<wire x1="20.955" y1="7.62" x2="22.86" y2="5.715" width="0.4064" layer="1"/>
-<wire x1="22.86" y1="5.715" x2="27.94" y2="5.715" width="0.4064" layer="1"/>
-<wire x1="27.94" y1="5.715" x2="28.2575" y2="5.3975" width="0.4064" layer="1"/>
-<wire x1="28.2575" y1="5.3975" x2="29.5275" y2="5.3975" width="0.4064" layer="1"/>
-<wire x1="29.5275" y1="5.3975" x2="30.7625" y2="5.4325" width="0.4064" layer="1"/>
 <via x="29.2275" y="10.7775" extent="1-16" drill="0.4"/>
 <wire x1="29.2275" y1="10.7775" x2="28.2575" y2="9.2075" width="0.4064" layer="16"/>
 <wire x1="28.2575" y1="9.2075" x2="26.4541" y2="9.2075" width="0.4064" layer="16"/>
 <wire x1="13.4366" y1="13.0175" x2="12.7" y2="13.0175" width="0.4064" layer="16"/>
-<wire x1="30.7625" y1="5.4325" x2="32.9175" y2="5.4325" width="0.4064" layer="1"/>
-<wire x1="32.9175" y1="5.4325" x2="34.765" y2="3.585" width="0.4064" layer="1"/>
 <via x="34.765" y="3.585" extent="1-16" drill="0.4"/>
 <wire x1="34.765" y1="3.585" x2="34.2225" y2="4.1275" width="0.4064" layer="16"/>
 <wire x1="34.2225" y1="4.1275" x2="32.6009" y2="4.1275" width="0.4064" layer="16"/>
 <wire x1="17.4625" y1="7.62" x2="13.6525" y2="11.43" width="0.4064" layer="1"/>
-<wire x1="20.955" y1="7.62" x2="17.4625" y2="7.62" width="0.4064" layer="1"/>
 <via x="28.6275" y="14.4775" extent="1-16" drill="0.4"/>
 <via x="12.7875" y="14.2825" extent="1-16" drill="0.4"/>
 <contactref element="X1" pad="GND"/>
@@ -564,6 +640,8 @@ design rules under a new name.</description>
 <wire x1="27.305" y1="12.7" x2="13.6525" y2="12.7" width="0.4064" layer="1"/>
 <wire x1="13.6525" y1="12.7" x2="13.6525" y2="11.43" width="0.4064" layer="1"/>
 <wire x1="13.6525" y1="12.7" x2="13.6525" y2="27.4525" width="0.4064" layer="1"/>
+<wire x1="17.4625" y1="7.62" x2="21.4975" y2="3.585" width="0.4064" layer="1"/>
+<wire x1="21.4975" y1="3.585" x2="34.765" y2="3.585" width="0.4064" layer="1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="IC2" pad="10"/>
@@ -770,20 +848,20 @@ design rules under a new name.</description>
 <wire x1="13.4366" y1="9.2075" x2="12.065" y2="9.2075" width="0.4064" layer="16"/>
 <wire x1="12.065" y1="9.2075" x2="10.4775" y2="10.795" width="0.4064" layer="16"/>
 <via x="10.4775" y="10.795" extent="1-16" drill="0.4"/>
-<wire x1="10.795" y1="11.1125" x2="10.795" y2="28.575" width="0.4064" layer="1"/>
-<via x="10.795" y="28.575" extent="1-16" drill="0.4"/>
+<wire x1="10.795" y1="11.1125" x2="10.795" y2="27.94" width="0.4064" layer="1"/>
+<via x="10.795" y="27.94" extent="1-16" drill="0.4"/>
 <wire x1="10.795" y1="11.1125" x2="10.4775" y2="10.795" width="0.4064" layer="1"/>
-<wire x1="9.525" y1="28.575" x2="10.795" y2="28.575" width="0.4064" layer="16"/>
-<wire x1="9.525" y1="28.575" x2="9.525" y2="28.56" width="0" layer="19" extent="16-16"/>
+<wire x1="10.795" y1="27.94" x2="10.175" y2="28.56" width="0.4064" layer="16"/>
+<wire x1="10.175" y1="28.56" x2="9.525" y2="28.56" width="0.4064" layer="16"/>
 </signal>
 <signal name="QG">
 <contactref element="R10" pad="1"/>
 <contactref element="IC1" pad="6"/>
 <wire x1="13.4366" y1="10.4775" x2="12.065" y2="10.4775" width="0.4064" layer="16"/>
 <wire x1="12.065" y1="10.4775" x2="11.43" y2="11.1125" width="0.4064" layer="16"/>
-<wire x1="11.43" y1="11.1125" x2="11.43" y2="27.305" width="0.4064" layer="16"/>
-<wire x1="11.43" y1="27.305" x2="13.335" y2="29.21" width="0.4064" layer="16"/>
-<wire x1="13.335" y1="29.21" x2="14.9075" y2="29.21" width="0.4064" layer="16"/>
+<wire x1="11.43" y1="11.1125" x2="11.43" y2="26.67" width="0.4064" layer="16"/>
+<wire x1="11.43" y1="26.67" x2="13.97" y2="29.21" width="0.4064" layer="16"/>
+<wire x1="13.97" y1="29.21" x2="14.9075" y2="29.21" width="0.4064" layer="16"/>
 </signal>
 <signal name="QH">
 <contactref element="R9" pad="1"/>
@@ -809,9 +887,9 @@ design rules under a new name.</description>
 <signal name="Q1">
 <contactref element="R2" pad="1"/>
 <contactref element="IC2" pad="1"/>
-<wire x1="32.325" y1="19.4525" x2="33.2975" y2="19.4525" width="0.4064" layer="16"/>
-<wire x1="33.2975" y1="19.4525" x2="33.465" y2="19.285" width="0.4064" layer="16"/>
-<wire x1="33.465" y1="19.285" x2="33.465" y2="14.685" width="0.4064" layer="16"/>
+<wire x1="32.325" y1="18.6525" x2="33.2975" y2="18.6525" width="0.4064" layer="16"/>
+<wire x1="33.2975" y1="18.6525" x2="33.465" y2="18.485" width="0.4064" layer="16"/>
+<wire x1="33.465" y1="18.485" x2="33.465" y2="14.685" width="0.4064" layer="16"/>
 <wire x1="33.465" y1="14.685" x2="32.6009" y2="13.8209" width="0.4064" layer="16"/>
 <wire x1="32.6009" y1="13.8209" x2="32.6009" y2="13.0175" width="0.4064" layer="16"/>
 </signal>
@@ -893,7 +971,7 @@ design rules under a new name.</description>
 <contactref element="R2" pad="2"/>
 <contactref element="LED10" pad="K"/>
 <wire x1="32.295" y1="22.385" x2="32.325" y2="22.355" width="0.4064" layer="16"/>
-<wire x1="32.325" y1="22.355" x2="32.325" y2="20.7525" width="0.4064" layer="16"/>
+<wire x1="32.325" y1="22.355" x2="32.325" y2="19.9525" width="0.4064" layer="16"/>
 </signal>
 <signal name="N$4">
 <contactref element="R3" pad="2"/>

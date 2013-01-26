@@ -1146,34 +1146,34 @@ Push-push type uSD socket. Schematic element and footprint production proven. Sp
 <library name="murdock">
 <packages>
 <package name="MURDOCK_STACK">
-<pad name="GND" x="1.905" y="1.905" drill="1.016" diameter="1.8796"/>
-<pad name="5V" x="4.445" y="1.905" drill="1.016" diameter="1.8796"/>
-<pad name="PWM1" x="6.985" y="1.905" drill="1.016" diameter="1.8796"/>
-<pad name="PWM2" x="9.525" y="1.905" drill="1.016" diameter="1.8796"/>
-<pad name="PWM4" x="12.065" y="1.905" drill="1.016" diameter="1.8796"/>
-<pad name="PWM3" x="14.605" y="1.905" drill="1.016" diameter="1.8796"/>
-<pad name="SW2" x="19.685" y="1.905" drill="1.016" diameter="1.8796"/>
-<pad name="SW3" x="22.225" y="1.905" drill="1.016" diameter="1.8796"/>
-<pad name="SP2" x="24.765" y="1.905" drill="1.016" diameter="1.8796"/>
-<pad name="SP1" x="27.305" y="1.905" drill="1.016" diameter="1.8796"/>
-<pad name="SW1" x="29.845" y="1.905" drill="1.016" diameter="1.8796"/>
-<pad name="3V3_SP" x="17.145" y="1.905" drill="1.016" diameter="1.8796"/>
-<pad name="PWM5" x="1.905" y="45.085" drill="1.016" diameter="1.8796"/>
-<pad name="PWM6" x="4.445" y="45.085" drill="1.016" diameter="1.8796"/>
-<pad name="LED_L" x="6.985" y="45.085" drill="1.016" diameter="1.8796"/>
-<pad name="LED_C" x="9.525" y="45.085" drill="1.016" diameter="1.8796"/>
-<pad name="LED_D" x="12.065" y="45.085" drill="1.016" diameter="1.8796"/>
-<pad name="PWM7" x="14.605" y="45.085" drill="1.016" diameter="1.8796"/>
-<pad name="PPM" x="17.145" y="45.085" drill="1.016" diameter="1.8796"/>
-<pad name="3V3" x="19.685" y="45.085" drill="1.016" diameter="1.8796"/>
-<pad name="SCL" x="27.305" y="45.085" drill="1.016" diameter="1.8796"/>
-<pad name="SDA" x="29.845" y="45.085" drill="1.016" diameter="1.8796"/>
-<pad name="TX" x="22.225" y="45.085" drill="1.016" diameter="1.8796"/>
-<pad name="RX" x="24.765" y="45.085" drill="1.016" diameter="1.8796"/>
-<wire x1="0" y1="0" x2="31.75" y2="0" width="0.127" layer="20"/>
-<wire x1="31.75" y1="0" x2="31.75" y2="46.99" width="0.127" layer="20"/>
-<wire x1="31.75" y1="46.99" x2="0" y2="46.99" width="0.127" layer="20"/>
-<wire x1="0" y1="46.99" x2="0" y2="0" width="0.127" layer="20"/>
+<pad name="GND" x="1.905" y="29.845" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="5V" x="1.905" y="27.305" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="PWM1" x="1.905" y="24.765" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="PWM2" x="1.905" y="22.225" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="PWM4" x="1.905" y="19.685" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="PWM3" x="1.905" y="17.145" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="SW2" x="1.905" y="12.065" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="SW3" x="1.905" y="9.525" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="SP2" x="1.905" y="6.985" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="SP1" x="1.905" y="4.445" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="SW1" x="1.905" y="1.905" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="3V3_SP" x="1.905" y="14.605" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="PWM5" x="45.085" y="29.845" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="PWM6" x="45.085" y="27.305" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="LED_L" x="45.085" y="24.765" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="LED_C" x="45.085" y="22.225" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="LED_D" x="45.085" y="19.685" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="PWM7" x="45.085" y="17.145" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="PPM" x="45.085" y="14.605" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="3V3" x="45.085" y="12.065" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="SCL" x="45.085" y="4.445" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="SDA" x="45.085" y="1.905" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="TX" x="45.085" y="9.525" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="RX" x="45.085" y="6.985" drill="1.016" diameter="1.8796" rot="R270"/>
+<wire x1="0" y1="31.75" x2="0" y2="0" width="0.127" layer="20"/>
+<wire x1="0" y1="0" x2="46.99" y2="0" width="0.127" layer="20"/>
+<wire x1="46.99" y1="0" x2="46.99" y2="31.75" width="0.127" layer="20"/>
+<wire x1="46.99" y1="31.75" x2="0" y2="31.75" width="0.127" layer="20"/>
 </package>
 </packages>
 <symbols>
@@ -1184,16 +1184,16 @@ Push-push type uSD socket. Schematic element and footprint production proven. Sp
 <pin name="PWM2" x="-22.86" y="15.24" length="middle"/>
 <pin name="PWM4" x="-22.86" y="10.16" length="middle"/>
 <pin name="PWM3" x="-22.86" y="5.08" length="middle"/>
-<pin name="SW2" x="-22.86" y="0" length="middle"/>
-<pin name="SW3" x="-22.86" y="-5.08" length="middle"/>
-<pin name="SP2" x="-22.86" y="-10.16" length="middle"/>
-<pin name="SP1" x="-22.86" y="-15.24" length="middle"/>
-<pin name="SW1" x="-22.86" y="-20.32" length="middle"/>
-<pin name="3V3_SP" x="-22.86" y="-25.4" length="middle"/>
-<pin name="TX" x="17.78" y="-25.4" length="middle" rot="R180"/>
-<pin name="RX" x="17.78" y="-20.32" length="middle" rot="R180"/>
-<pin name="SDA" x="17.78" y="-15.24" length="middle" rot="R180"/>
-<pin name="SCL" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="SW2" x="-22.86" y="-5.08" length="middle"/>
+<pin name="SW3" x="-22.86" y="-10.16" length="middle"/>
+<pin name="SP2" x="-22.86" y="-15.24" length="middle"/>
+<pin name="SP1" x="-22.86" y="-20.32" length="middle"/>
+<pin name="SW1" x="-22.86" y="-25.4" length="middle"/>
+<pin name="3V3_SP" x="-22.86" y="0" length="middle"/>
+<pin name="TX" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="RX" x="17.78" y="-15.24" length="middle" rot="R180"/>
+<pin name="SDA" x="17.78" y="-25.4" length="middle" rot="R180"/>
+<pin name="SCL" x="17.78" y="-20.32" length="middle" rot="R180"/>
 <pin name="3V3" x="17.78" y="-5.08" length="middle" rot="R180"/>
 <pin name="PPM" x="17.78" y="0" length="middle" rot="R180"/>
 <pin name="PWM7" x="17.78" y="5.08" length="middle" rot="R180"/>
@@ -12612,8 +12612,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <net name="TX" class="0">
 <segment>
 <pinref part="X2" gate="G$1" pin="TX"/>
-<wire x1="137.16" y1="12.7" x2="144.78" y2="12.7" width="0.1524" layer="91"/>
-<label x="139.7" y="12.7" size="1.778" layer="95"/>
+<wire x1="137.16" y1="27.94" x2="147.32" y2="27.94" width="0.1524" layer="91"/>
+<label x="144.78" y="27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$2" pin="PORTA_0"/>
@@ -12624,8 +12624,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <net name="RX" class="0">
 <segment>
 <pinref part="X2" gate="G$1" pin="RX"/>
-<wire x1="137.16" y1="17.78" x2="147.32" y2="17.78" width="0.1524" layer="91"/>
-<label x="139.7" y="17.78" size="1.778" layer="95"/>
+<wire x1="137.16" y1="22.86" x2="147.32" y2="22.86" width="0.1524" layer="91"/>
+<label x="144.78" y="22.86" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$2" pin="PORTA_1"/>
@@ -12641,8 +12641,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 </segment>
 <segment>
 <pinref part="X2" gate="G$1" pin="SP2"/>
-<wire x1="96.52" y1="27.94" x2="86.36" y2="27.94" width="0.1524" layer="91"/>
-<label x="86.36" y="27.94" size="1.778" layer="95"/>
+<wire x1="96.52" y1="22.86" x2="86.36" y2="22.86" width="0.1524" layer="91"/>
+<label x="86.36" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -12696,8 +12696,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <net name="SW1" class="0">
 <segment>
 <pinref part="X2" gate="G$1" pin="SW1"/>
-<wire x1="96.52" y1="17.78" x2="86.36" y2="17.78" width="0.1524" layer="91"/>
-<label x="86.36" y="17.78" size="1.778" layer="95"/>
+<wire x1="96.52" y1="12.7" x2="86.36" y2="12.7" width="0.1524" layer="91"/>
+<label x="86.36" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="BOOT0"/>
@@ -12713,8 +12713,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <net name="SDA" class="0">
 <segment>
 <pinref part="X2" gate="G$1" pin="SDA"/>
-<wire x1="137.16" y1="22.86" x2="147.32" y2="22.86" width="0.1524" layer="91"/>
-<label x="142.24" y="22.86" size="1.778" layer="95"/>
+<wire x1="137.16" y1="12.7" x2="147.32" y2="12.7" width="0.1524" layer="91"/>
+<label x="142.24" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$3" pin="PORTB_11"/>
@@ -12736,8 +12736,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <net name="SCL" class="0">
 <segment>
 <pinref part="X2" gate="G$1" pin="SCL"/>
-<wire x1="137.16" y1="27.94" x2="147.32" y2="27.94" width="0.1524" layer="91"/>
-<label x="142.24" y="27.94" size="1.778" layer="95"/>
+<wire x1="137.16" y1="17.78" x2="147.32" y2="17.78" width="0.1524" layer="91"/>
+<label x="142.24" y="17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$3" pin="PORTB_10"/>
@@ -12760,8 +12760,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <net name="SW3" class="0">
 <segment>
 <pinref part="X2" gate="G$1" pin="SW3"/>
-<wire x1="96.52" y1="33.02" x2="86.36" y2="33.02" width="0.1524" layer="91"/>
-<label x="86.36" y="33.02" size="1.778" layer="95"/>
+<wire x1="96.52" y1="27.94" x2="86.36" y2="27.94" width="0.1524" layer="91"/>
+<label x="86.36" y="27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$3" pin="PORTB_15"/>
@@ -12772,8 +12772,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <net name="SW2" class="0">
 <segment>
 <pinref part="X2" gate="G$1" pin="SW2"/>
-<wire x1="96.52" y1="38.1" x2="86.36" y2="38.1" width="0.1524" layer="91"/>
-<label x="86.36" y="38.1" size="1.778" layer="95"/>
+<wire x1="96.52" y1="33.02" x2="86.36" y2="33.02" width="0.1524" layer="91"/>
+<label x="86.36" y="33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$3" pin="PORTB_14"/>
@@ -12786,10 +12786,10 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="Q2" gate="G$1" pin="D"/>
 <wire x1="88.9" y1="-22.86" x2="99.06" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="-22.86" x2="99.06" y2="0" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="0" x2="88.9" y2="0" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="0" x2="88.9" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="0" x2="81.28" y2="0" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="0" x2="81.28" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="X2" gate="G$1" pin="3V3_SP"/>
-<wire x1="88.9" y1="12.7" x2="96.52" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="38.1" x2="96.52" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SP_PWR" class="0">
@@ -12871,8 +12871,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 </segment>
 <segment>
 <pinref part="X2" gate="G$1" pin="SP1"/>
-<wire x1="96.52" y1="22.86" x2="86.36" y2="22.86" width="0.1524" layer="91"/>
-<label x="86.36" y="22.86" size="1.778" layer="95"/>
+<wire x1="96.52" y1="17.78" x2="86.36" y2="17.78" width="0.1524" layer="91"/>
+<label x="86.36" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

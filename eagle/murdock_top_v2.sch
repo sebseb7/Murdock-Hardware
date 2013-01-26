@@ -915,34 +915,34 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <library name="murdock">
 <packages>
 <package name="MURDOCK_STACK">
-<pad name="GND" x="1.905" y="1.905" drill="1.016" diameter="1.8796"/>
-<pad name="5V" x="4.445" y="1.905" drill="1.016" diameter="1.8796"/>
-<pad name="PWM1" x="6.985" y="1.905" drill="1.016" diameter="1.8796"/>
-<pad name="PWM2" x="9.525" y="1.905" drill="1.016" diameter="1.8796"/>
-<pad name="PWM4" x="12.065" y="1.905" drill="1.016" diameter="1.8796"/>
-<pad name="PWM3" x="14.605" y="1.905" drill="1.016" diameter="1.8796"/>
-<pad name="SW2" x="19.685" y="1.905" drill="1.016" diameter="1.8796"/>
-<pad name="SW3" x="22.225" y="1.905" drill="1.016" diameter="1.8796"/>
-<pad name="SP2" x="24.765" y="1.905" drill="1.016" diameter="1.8796"/>
-<pad name="SP1" x="27.305" y="1.905" drill="1.016" diameter="1.8796"/>
-<pad name="SW1" x="29.845" y="1.905" drill="1.016" diameter="1.8796"/>
-<pad name="3V3_SP" x="17.145" y="1.905" drill="1.016" diameter="1.8796"/>
-<pad name="PWM5" x="1.905" y="45.085" drill="1.016" diameter="1.8796"/>
-<pad name="PWM6" x="4.445" y="45.085" drill="1.016" diameter="1.8796"/>
-<pad name="LED_L" x="6.985" y="45.085" drill="1.016" diameter="1.8796"/>
-<pad name="LED_C" x="9.525" y="45.085" drill="1.016" diameter="1.8796"/>
-<pad name="LED_D" x="12.065" y="45.085" drill="1.016" diameter="1.8796"/>
-<pad name="PWM7" x="14.605" y="45.085" drill="1.016" diameter="1.8796"/>
-<pad name="PPM" x="17.145" y="45.085" drill="1.016" diameter="1.8796"/>
-<pad name="3V3" x="19.685" y="45.085" drill="1.016" diameter="1.8796"/>
-<pad name="SCL" x="27.305" y="45.085" drill="1.016" diameter="1.8796"/>
-<pad name="SDA" x="29.845" y="45.085" drill="1.016" diameter="1.8796"/>
-<pad name="TX" x="22.225" y="45.085" drill="1.016" diameter="1.8796"/>
-<pad name="RX" x="24.765" y="45.085" drill="1.016" diameter="1.8796"/>
-<wire x1="0" y1="0" x2="31.75" y2="0" width="0.127" layer="20"/>
-<wire x1="31.75" y1="0" x2="31.75" y2="46.99" width="0.127" layer="20"/>
-<wire x1="31.75" y1="46.99" x2="0" y2="46.99" width="0.127" layer="20"/>
-<wire x1="0" y1="46.99" x2="0" y2="0" width="0.127" layer="20"/>
+<pad name="GND" x="1.905" y="29.845" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="5V" x="1.905" y="27.305" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="PWM1" x="1.905" y="24.765" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="PWM2" x="1.905" y="22.225" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="PWM4" x="1.905" y="19.685" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="PWM3" x="1.905" y="17.145" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="SW2" x="1.905" y="12.065" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="SW3" x="1.905" y="9.525" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="SP2" x="1.905" y="6.985" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="SP1" x="1.905" y="4.445" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="SW1" x="1.905" y="1.905" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="3V3_SP" x="1.905" y="14.605" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="PWM5" x="45.085" y="29.845" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="PWM6" x="45.085" y="27.305" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="LED_L" x="45.085" y="24.765" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="LED_C" x="45.085" y="22.225" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="LED_D" x="45.085" y="19.685" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="PWM7" x="45.085" y="17.145" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="PPM" x="45.085" y="14.605" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="3V3" x="45.085" y="12.065" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="SCL" x="45.085" y="4.445" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="SDA" x="45.085" y="1.905" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="TX" x="45.085" y="9.525" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="RX" x="45.085" y="6.985" drill="1.016" diameter="1.8796" rot="R270"/>
+<wire x1="0" y1="31.75" x2="0" y2="0" width="0.127" layer="20"/>
+<wire x1="0" y1="0" x2="46.99" y2="0" width="0.127" layer="20"/>
+<wire x1="46.99" y1="0" x2="46.99" y2="31.75" width="0.127" layer="20"/>
+<wire x1="46.99" y1="31.75" x2="0" y2="31.75" width="0.127" layer="20"/>
 </package>
 </packages>
 <symbols>
@@ -953,16 +953,16 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pin name="PWM2" x="-22.86" y="15.24" length="middle"/>
 <pin name="PWM4" x="-22.86" y="10.16" length="middle"/>
 <pin name="PWM3" x="-22.86" y="5.08" length="middle"/>
-<pin name="SW2" x="-22.86" y="0" length="middle"/>
-<pin name="SW3" x="-22.86" y="-5.08" length="middle"/>
-<pin name="SP2" x="-22.86" y="-10.16" length="middle"/>
-<pin name="SP1" x="-22.86" y="-15.24" length="middle"/>
-<pin name="SW1" x="-22.86" y="-20.32" length="middle"/>
-<pin name="3V3_SP" x="-22.86" y="-25.4" length="middle"/>
-<pin name="TX" x="17.78" y="-25.4" length="middle" rot="R180"/>
-<pin name="RX" x="17.78" y="-20.32" length="middle" rot="R180"/>
-<pin name="SDA" x="17.78" y="-15.24" length="middle" rot="R180"/>
-<pin name="SCL" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="SW2" x="-22.86" y="-5.08" length="middle"/>
+<pin name="SW3" x="-22.86" y="-10.16" length="middle"/>
+<pin name="SP2" x="-22.86" y="-15.24" length="middle"/>
+<pin name="SP1" x="-22.86" y="-20.32" length="middle"/>
+<pin name="SW1" x="-22.86" y="-25.4" length="middle"/>
+<pin name="3V3_SP" x="-22.86" y="0" length="middle"/>
+<pin name="TX" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="RX" x="17.78" y="-15.24" length="middle" rot="R180"/>
+<pin name="SDA" x="17.78" y="-25.4" length="middle" rot="R180"/>
+<pin name="SCL" x="17.78" y="-20.32" length="middle" rot="R180"/>
 <pin name="3V3" x="17.78" y="-5.08" length="middle" rot="R180"/>
 <pin name="PPM" x="17.78" y="0" length="middle" rot="R180"/>
 <pin name="PWM7" x="17.78" y="5.08" length="middle" rot="R180"/>

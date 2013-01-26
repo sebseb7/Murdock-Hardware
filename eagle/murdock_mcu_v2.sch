@@ -12008,31 +12008,31 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="C8" library="rcl" deviceset="C-EU" device="C0402" value="10nF"/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
-<part name="C1" library="rcl" deviceset="CPOL-EU" device="SMCD"/>
-<part name="C2" library="rcl" deviceset="CPOL-EU" device="SMCD"/>
+<part name="C1" library="rcl" deviceset="CPOL-EU" device="SMCD" value="47µF/10V"/>
+<part name="C2" library="rcl" deviceset="CPOL-EU" device="SMCD" value="100µF/6V"/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
-<part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP"/>
-<part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP"/>
-<part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP"/>
-<part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP"/>
+<part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="100nF"/>
+<part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="100nF"/>
+<part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="100nF"/>
+<part name="C7" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="100nF"/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND11" library="SparkFun" deviceset="GND" device=""/>
-<part name="C10" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
-<part name="C11" library="SparkFun-Capacitors" deviceset="CAP" device="0805"/>
+<part name="C10" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="2.2µF"/>
+<part name="C11" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="2.2µF"/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
-<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0402-RES"/>
-<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0402-RES"/>
-<part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0402-RES"/>
-<part name="C12" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP"/>
-<part name="C13" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP"/>
-<part name="L1" library="seb" deviceset="X22-OSCILLATOR" device=""/>
+<part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0402-RES" value="33R"/>
+<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0402-RES" value="33R"/>
+<part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0402-RES" value="0R"/>
+<part name="C12" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="15pF"/>
+<part name="C13" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="15pF"/>
+<part name="L1" library="seb" deviceset="X22-OSCILLATOR" device="" value="12Mhz"/>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
-<part name="Q2" library="microbuilder" deviceset="MOSFET-P" device=""/>
+<part name="Q2" library="microbuilder" deviceset="MOSFET-P" device="" value="PFET"/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
@@ -12045,8 +12045,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
-<part name="R4" library="SparkFun" deviceset="RESISTOR" device="0402-RES"/>
-<part name="R5" library="SparkFun" deviceset="RESISTOR" device="0402-RES"/>
+<part name="R4" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="4k7"/>
+<part name="R5" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="4k7"/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>

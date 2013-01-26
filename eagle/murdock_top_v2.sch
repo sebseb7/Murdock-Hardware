@@ -1053,22 +1053,22 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="P+2" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="P+4" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="P+5" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
-<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES"/>
-<part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES"/>
-<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES"/>
-<part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES"/>
-<part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES"/>
-<part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES"/>
-<part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES"/>
-<part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES"/>
-<part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES"/>
-<part name="R10" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES"/>
-<part name="R11" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES"/>
-<part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES"/>
-<part name="R13" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES"/>
-<part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES"/>
-<part name="R15" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES"/>
-<part name="R16" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES"/>
+<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="150R"/>
+<part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="150R"/>
+<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="150R"/>
+<part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="150R"/>
+<part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="150R"/>
+<part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="150R"/>
+<part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="150R"/>
+<part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="150R"/>
+<part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="150R"/>
+<part name="R10" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="150R"/>
+<part name="R11" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="150R"/>
+<part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="150R"/>
+<part name="R13" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="150R"/>
+<part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="15R"/>
+<part name="R15" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="150R"/>
+<part name="R16" library="SparkFun-Passives" deviceset="RESISTOR" device="0402-RES" value="150R"/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="P+6" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="X1" library="murdock" deviceset="MURDOCK_STACK" device=""/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -921,12 +921,12 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pad name="PWM2" x="9.525" y="1.905" drill="1.016" diameter="1.8796"/>
 <pad name="PWM4" x="12.065" y="1.905" drill="1.016" diameter="1.8796"/>
 <pad name="PWM3" x="14.605" y="1.905" drill="1.016" diameter="1.8796"/>
-<pad name="SW2" x="17.145" y="1.905" drill="1.016" diameter="1.8796"/>
-<pad name="SW3" x="19.685" y="1.905" drill="1.016" diameter="1.8796"/>
-<pad name="SP2" x="22.225" y="1.905" drill="1.016" diameter="1.8796"/>
-<pad name="SP1" x="24.765" y="1.905" drill="1.016" diameter="1.8796"/>
-<pad name="SW1" x="27.305" y="1.905" drill="1.016" diameter="1.8796"/>
-<pad name="3V3_SP" x="29.845" y="1.905" drill="1.016" diameter="1.8796"/>
+<pad name="SW2" x="19.685" y="1.905" drill="1.016" diameter="1.8796"/>
+<pad name="SW3" x="22.225" y="1.905" drill="1.016" diameter="1.8796"/>
+<pad name="SP2" x="24.765" y="1.905" drill="1.016" diameter="1.8796"/>
+<pad name="SP1" x="27.305" y="1.905" drill="1.016" diameter="1.8796"/>
+<pad name="SW1" x="29.845" y="1.905" drill="1.016" diameter="1.8796"/>
+<pad name="3V3_SP" x="17.145" y="1.905" drill="1.016" diameter="1.8796"/>
 <pad name="PWM5" x="1.905" y="45.085" drill="1.016" diameter="1.8796"/>
 <pad name="PWM6" x="4.445" y="45.085" drill="1.016" diameter="1.8796"/>
 <pad name="LED_L" x="6.985" y="45.085" drill="1.016" diameter="1.8796"/>
@@ -935,10 +935,10 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pad name="PWM7" x="14.605" y="45.085" drill="1.016" diameter="1.8796"/>
 <pad name="PPM" x="17.145" y="45.085" drill="1.016" diameter="1.8796"/>
 <pad name="3V3" x="19.685" y="45.085" drill="1.016" diameter="1.8796"/>
-<pad name="SCL" x="22.225" y="45.085" drill="1.016" diameter="1.8796"/>
-<pad name="SDA" x="24.765" y="45.085" drill="1.016" diameter="1.8796"/>
-<pad name="TX" x="27.305" y="45.085" drill="1.016" diameter="1.8796"/>
-<pad name="RX" x="29.845" y="45.085" drill="1.016" diameter="1.8796"/>
+<pad name="SCL" x="27.305" y="45.085" drill="1.016" diameter="1.8796"/>
+<pad name="SDA" x="29.845" y="45.085" drill="1.016" diameter="1.8796"/>
+<pad name="TX" x="22.225" y="45.085" drill="1.016" diameter="1.8796"/>
+<pad name="RX" x="24.765" y="45.085" drill="1.016" diameter="1.8796"/>
 <wire x1="0" y1="0" x2="31.75" y2="0" width="0.127" layer="20"/>
 <wire x1="31.75" y1="0" x2="31.75" y2="46.99" width="0.127" layer="20"/>
 <wire x1="31.75" y1="46.99" x2="0" y2="46.99" width="0.127" layer="20"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11904,6 +11904,81 @@ TS-003</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Sensors">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find sensors- accelerometers, gyros, compasses, magnetometers, light sensors, imagers, temp sensors, etc.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="BMP085">
+<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="2.5" x2="-2.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="2.5" x2="-2.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="2.5" x2="-2.5" y2="1.9" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="2.5" x2="-1.9" y2="2.5" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="2.5" x2="1.9" y2="2.5" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="1.9" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="-1.8" y2="-2.5" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="-2.5" x2="1.8" y2="-2.5" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="-2.5" x2="2.5" y2="-1.9" width="0.2032" layer="21"/>
+<circle x="-2.1" y="2.1" radius="0.2" width="0.127" layer="21"/>
+<smd name="8" x="0" y="1.65" dx="2.5" dy="0.8" layer="1" rot="R90"/>
+<smd name="4" x="0" y="-2.065" dx="1.67" dy="0.8" layer="1" rot="R90"/>
+<smd name="7" x="2.065" y="1.27" dx="0.8" dy="1.67" layer="1" rot="R270"/>
+<smd name="6" x="2.065" y="0" dx="0.8" dy="1.67" layer="1" rot="R270"/>
+<smd name="5" x="2.065" y="-1.27" dx="0.8" dy="1.67" layer="1" rot="R270"/>
+<smd name="3" x="-2.065" y="-1.27" dx="0.8" dy="1.67" layer="1" rot="R270"/>
+<smd name="2" x="-2.065" y="0" dx="0.8" dy="1.67" layer="1" rot="R270"/>
+<smd name="1" x="-2.065" y="1.27" dx="0.8" dy="1.67" layer="1" rot="R270"/>
+</package>
+</packages>
+<symbols>
+<symbol name="BMP085">
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<text x="-7.62" y="5.588" size="1.778" layer="95">&gt;Name</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="95">&gt;Value</text>
+<pin name="XCLR" x="12.7" y="-5.08" length="short" direction="in" rot="R180"/>
+<pin name="SDA" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="SCL" x="12.7" y="0" length="short" direction="in" rot="R180"/>
+<pin name="NC" x="-10.16" y="-2.54" length="short"/>
+<pin name="VDDD" x="-10.16" y="0" length="short" direction="pwr"/>
+<pin name="VDDA" x="-10.16" y="2.54" length="short" direction="pwr"/>
+<pin name="EOC" x="12.7" y="-2.54" length="short" direction="out" rot="R180"/>
+<pin name="GND" x="-10.16" y="-5.08" length="short" direction="pwr"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BMP085">
+<description>&lt;b&gt;BMP085 Pressure Sensor&lt;/b&gt; Great little MEMS pressure sensor. SKU: COM-09603</description>
+<gates>
+<gate name="G$1" symbol="BMP085" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BMP085">
+<connects>
+<connect gate="G$1" pin="EOC" pad="2"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="NC" pad="5"/>
+<connect gate="G$1" pin="SCL" pad="6"/>
+<connect gate="G$1" pin="SDA" pad="7"/>
+<connect gate="G$1" pin="VDDA" pad="3"/>
+<connect gate="G$1" pin="VDDD" pad="4"/>
+<connect gate="G$1" pin="XCLR" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -11981,6 +12056,10 @@ TS-003</description>
 <part name="C18" library="SparkFun" deviceset="CAP" device="0402-CAP" value="100nF"/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
+<part name="IC4" library="SparkFun-Sensors" deviceset="BMP085" device=""/>
+<part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V12" library="supply1" deviceset="+3V3" device=""/>
+<part name="GND8" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12064,6 +12143,10 @@ TS-003</description>
 <instance part="C18" gate="G$1" x="177.8" y="152.4" rot="R90"/>
 <instance part="GND27" gate="1" x="170.18" y="152.4" rot="R270"/>
 <instance part="+3V6" gate="G$1" x="198.12" y="180.34"/>
+<instance part="IC4" gate="G$1" x="322.58" y="162.56" rot="R180"/>
+<instance part="+3V11" gate="G$1" x="335.28" y="162.56" rot="R270"/>
+<instance part="+3V12" gate="G$1" x="335.28" y="160.02" rot="R270"/>
+<instance part="GND8" gate="1" x="335.28" y="167.64" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -12211,6 +12294,10 @@ TS-003</description>
 <pinref part="C18" gate="G$1" pin="1"/>
 <pinref part="GND27" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="GND"/>
+<pinref part="GND8" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -12303,6 +12390,14 @@ TS-003</description>
 <pinref part="IC1" gate="G$1" pin="1"/>
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
 <wire x1="200.66" y1="177.8" x2="198.12" y2="177.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="VDDD"/>
+<pinref part="+3V11" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="VDDA"/>
+<pinref part="+3V12" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -12634,6 +12729,8 @@ TS-003</description>
 <pinref part="R5" gate="G$1" pin="1"/>
 <pinref part="IC1" gate="G$1" pin="24"/>
 <label x="292.1" y="160.02" size="1.778" layer="95"/>
+<pinref part="IC4" gate="G$1" pin="SDA"/>
+<wire x1="309.88" y1="160.02" x2="292.1" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -12655,6 +12752,9 @@ TS-003</description>
 <pinref part="R4" gate="G$1" pin="1"/>
 <pinref part="IC1" gate="G$1" pin="23"/>
 <label x="292.1" y="165.1" size="1.778" layer="95"/>
+<wire x1="304.8" y1="165.1" x2="304.8" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="IC4" gate="G$1" pin="SCL"/>
+<wire x1="304.8" y1="162.56" x2="309.88" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SW3" class="0">

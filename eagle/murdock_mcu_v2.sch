@@ -11986,6 +11986,11 @@ TS-003</description>
 <sheet>
 <plain>
 <text x="-93.98" y="60.96" size="1.778" layer="91">defined value on the bootloader pins</text>
+<text x="96.52" y="149.86" size="2.54" layer="94">UART4 = GPS</text>
+<text x="96.52" y="165.1" size="2.54" layer="94">USART1 = SBUS</text>
+<text x="96.52" y="139.7" size="2.54" layer="94">USART6 = SP2</text>
+<text x="96.52" y="157.48" size="2.54" layer="94">USART3 = SP1</text>
+<text x="17.78" y="127" size="1.778" layer="91">1_RX</text>
 </plain>
 <instances>
 <instance part="IC3" gate="G$1" x="-76.2" y="86.36"/>
@@ -12533,18 +12538,6 @@ TS-003</description>
 <label x="-25.4" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="A10" class="0">
-<segment>
-<pinref part="X2" gate="G$1" pin="SP1"/>
-<wire x1="96.52" y1="22.86" x2="86.36" y2="22.86" width="0.1524" layer="91"/>
-<label x="86.36" y="22.86" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$2" pin="PORTA_10"/>
-<wire x1="-17.78" y1="142.24" x2="-25.4" y2="142.24" width="0.1524" layer="91"/>
-<label x="-25.4" y="142.24" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="C7" class="0">
 <segment>
 <pinref part="IC3" gate="G$4" pin="PORTC_7"/>
@@ -12571,14 +12564,14 @@ TS-003</description>
 </net>
 <net name="MISO" class="0">
 <segment>
-<pinref part="IC3" gate="G$4" pin="PORTC_11"/>
-<wire x1="-7.62" y1="48.26" x2="-17.78" y2="48.26" width="0.1524" layer="91"/>
-<label x="-17.78" y="48.26" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U1" gate="G$1" pin="DO"/>
 <wire x1="50.8" y1="27.94" x2="38.1" y2="27.94" width="0.1524" layer="91"/>
 <label x="38.1" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$3" pin="PORTB_4"/>
+<wire x1="38.1" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
+<label x="30.48" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -12770,16 +12763,18 @@ TS-003</description>
 <label x="-25.4" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
-</nets>
-</sheet>
-<sheet>
-<plain>
-</plain>
-<instances>
-</instances>
-<busses>
-</busses>
-<nets>
+<net name="C11" class="0">
+<segment>
+<pinref part="IC3" gate="G$4" pin="PORTC_11"/>
+<wire x1="-7.62" y1="48.26" x2="-17.78" y2="48.26" width="0.1524" layer="91"/>
+<label x="-17.78" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X2" gate="G$1" pin="SP1"/>
+<wire x1="96.52" y1="22.86" x2="86.36" y2="22.86" width="0.1524" layer="91"/>
+<label x="86.36" y="22.86" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

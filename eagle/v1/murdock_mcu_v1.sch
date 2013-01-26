@@ -11986,6 +11986,9 @@ TS-003</description>
 <sheet>
 <plain>
 <text x="-93.98" y="60.96" size="1.778" layer="91">defined value on the bootloader pins</text>
+<text x="99.06" y="170.18" size="2.54" layer="94">UART4 = GPS</text>
+<text x="99.06" y="182.88" size="2.54" layer="94">USART1 = SP1</text>
+<text x="99.06" y="157.48" size="2.54" layer="94">USART6 = SP2</text>
 </plain>
 <instances>
 <instance part="IC3" gate="G$1" x="-76.2" y="86.36"/>

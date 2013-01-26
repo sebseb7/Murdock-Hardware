@@ -10762,8 +10762,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="-58.42" y="86.36"/>
-<instance part="U$1" gate="G$2" x="-2.54" y="86.36"/>
-<instance part="U$1" gate="G$3" x="35.56" y="86.36"/>
+<instance part="U$1" gate="G$2" x="-12.7" y="86.36"/>
+<instance part="U$1" gate="G$3" x="43.18" y="86.36"/>
 <instance part="U$1" gate="G$4" x="-2.54" y="-12.7"/>
 <instance part="U$1" gate="G$5" x="-58.42" y="142.24"/>
 <instance part="X1" gate="G$1" x="35.56" y="68.58"/>
@@ -10785,7 +10785,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="P+3" gate="1" x="190.5" y="45.72"/>
 <instance part="+3V9" gate="G$1" x="264.16" y="45.72"/>
 <instance part="C8" gate="G$1" x="271.78" y="30.48" rot="R180"/>
-<instance part="P+1" gate="1" x="86.36" y="63.5" rot="R90"/>
+<instance part="P+1" gate="1" x="81.28" y="63.5" rot="R90"/>
 <instance part="+3V1" gate="G$1" x="149.86" y="33.02" rot="R270"/>
 <instance part="C1" gate="G$1" x="198.12" y="33.02"/>
 <instance part="C2" gate="G$1" x="256.54" y="33.02"/>
@@ -10980,7 +10980,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <segment>
 <pinref part="X2" gate="G$1" pin="5V"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
-<wire x1="88.9" y1="63.5" x2="96.52" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="63.5" x2="96.52" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -11002,6 +11002,102 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VCAP_2"/>
 <pinref part="C11" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="PWM1" class="0">
+<segment>
+<pinref part="X2" gate="G$1" pin="PWM1"/>
+<wire x1="96.52" y1="58.42" x2="83.82" y2="58.42" width="0.1524" layer="91"/>
+<label x="83.82" y="58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$3" pin="PORTB_7"/>
+<wire x1="38.1" y1="127" x2="30.48" y2="127" width="0.1524" layer="91"/>
+<label x="30.48" y="127" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PWM2" class="0">
+<segment>
+<pinref part="X2" gate="G$1" pin="PWM2"/>
+<wire x1="96.52" y1="53.34" x2="83.82" y2="53.34" width="0.1524" layer="91"/>
+<label x="83.82" y="53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$3" pin="PORTB_8"/>
+<wire x1="38.1" y1="132.08" x2="30.48" y2="132.08" width="0.1524" layer="91"/>
+<label x="30.48" y="132.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PWM4" class="0">
+<segment>
+<pinref part="X2" gate="G$1" pin="PWM4"/>
+<wire x1="96.52" y1="48.26" x2="83.82" y2="48.26" width="0.1524" layer="91"/>
+<label x="83.82" y="48.26" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$3" pin="PORTB_5"/>
+<wire x1="38.1" y1="116.84" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
+<label x="30.48" y="116.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PWM3" class="0">
+<segment>
+<pinref part="X2" gate="G$1" pin="PWM3"/>
+<wire x1="96.52" y1="43.18" x2="83.82" y2="43.18" width="0.1524" layer="91"/>
+<label x="83.82" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$3" pin="PORTB_9"/>
+<wire x1="38.1" y1="137.16" x2="30.48" y2="137.16" width="0.1524" layer="91"/>
+<label x="30.48" y="137.16" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PWM7" class="0">
+<segment>
+<pinref part="X2" gate="G$1" pin="PWM7"/>
+<wire x1="137.16" y1="43.18" x2="149.86" y2="43.18" width="0.1524" layer="91"/>
+<label x="144.78" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$3" pin="PORTB_0"/>
+<wire x1="38.1" y1="91.44" x2="30.48" y2="91.44" width="0.1524" layer="91"/>
+<label x="30.48" y="91.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PWM6" class="0">
+<segment>
+<pinref part="X2" gate="G$1" pin="PWM6"/>
+<wire x1="137.16" y1="63.5" x2="149.86" y2="63.5" width="0.1524" layer="91"/>
+<label x="144.78" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$3" pin="PORTB_1"/>
+<wire x1="38.1" y1="96.52" x2="30.48" y2="96.52" width="0.1524" layer="91"/>
+<label x="30.48" y="96.52" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PWM5" class="0">
+<segment>
+<pinref part="X2" gate="G$1" pin="PWM5"/>
+<wire x1="137.16" y1="68.58" x2="149.86" y2="68.58" width="0.1524" layer="91"/>
+<label x="144.78" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$3" pin="PORTB_4"/>
+<wire x1="38.1" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
+<label x="30.48" y="111.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PPM" class="0">
+<segment>
+<pinref part="X2" gate="G$1" pin="PPM"/>
+<wire x1="137.16" y1="38.1" x2="149.86" y2="38.1" width="0.1524" layer="91"/>
+<label x="144.78" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$3" pin="PORTB_6"/>
+<wire x1="38.1" y1="121.92" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
+<label x="30.48" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

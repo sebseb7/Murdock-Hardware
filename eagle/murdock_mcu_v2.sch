@@ -12070,6 +12070,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="96.52" y="139.7" size="2.54" layer="94">USART6 = SP2</text>
 <text x="96.52" y="157.48" size="2.54" layer="94">USART3 = SP1</text>
 <text x="17.78" y="127" size="1.778" layer="91">1_RX</text>
+<text x="93.98" y="-10.16" size="1.778" layer="91">in case of 5V, pull up is neccessary (and proper pin configuraiotn)</text>
 </plain>
 <instances>
 <instance part="IC3" gate="G$1" x="-76.2" y="86.36"/>

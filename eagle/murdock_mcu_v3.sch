@@ -12008,8 +12008,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="C8" library="rcl" deviceset="C-EU" device="C0402" value="10nF"/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
-<part name="C1" library="rcl" deviceset="CPOL-EU" device="SMCD" value="47µF/10V"/>
-<part name="C2" library="rcl" deviceset="CPOL-EU" device="SMCD" value="100µF/6V"/>
+<part name="C1" library="rcl" deviceset="CPOL-EU" device="SMCC" value="47µF/10V"/>
+<part name="C2" library="rcl" deviceset="CPOL-EU" device="SMCC" value="100µF/6V"/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="100nF"/>

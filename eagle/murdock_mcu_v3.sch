@@ -12087,7 +12087,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
-<part name="Q2" library="microbuilder" deviceset="MOSFET-P" device="" value="PFET"/>
+<part name="T1" library="microbuilder" deviceset="MOSFET-P" device="" value="PFET"/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
@@ -12125,10 +12125,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <plain>
 <text x="-93.98" y="60.96" size="1.778" layer="91">defined value on the bootloader pins</text>
 <text x="96.52" y="149.86" size="2.54" layer="94">UART4 = GPS</text>
-<text x="96.52" y="165.1" size="2.54" layer="94">USART1 = SBUS</text>
+<text x="96.52" y="165.1" size="2.54" layer="94">USART2 = SBUS</text>
 <text x="96.52" y="139.7" size="2.54" layer="94">USART6 = SP2</text>
 <text x="96.52" y="157.48" size="2.54" layer="94">USART3 = SP1</text>
-<text x="17.78" y="127" size="1.778" layer="91">1_RX</text>
 <text x="93.98" y="-10.16" size="1.778" layer="91">in case of 5V, pull up is neccessary (and proper pin configuraiotn)</text>
 <text x="2.54" y="142.24" size="1.778" layer="91">BL</text>
 <text x="58.42" y="147.32" size="1.778" layer="91">BL</text>
@@ -12182,7 +12181,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="GND14" gate="1" x="-91.44" y="147.32" smashed="yes" rot="R270"/>
 <instance part="GND15" gate="1" x="22.86" y="116.84" smashed="yes" rot="R270"/>
 <instance part="P+2" gate="1" x="35.56" y="66.04" rot="R180"/>
-<instance part="Q2" gate="G$1" x="88.9" y="-17.78"/>
+<instance part="T1" gate="G$1" x="88.9" y="-17.78"/>
 <instance part="+3V7" gate="G$1" x="88.9" y="-7.62"/>
 <instance part="GND17" gate="1" x="185.42" y="147.32" rot="R270"/>
 <instance part="GND18" gate="1" x="185.42" y="152.4" rot="R270"/>
@@ -12437,7 +12436,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </segment>
 <segment>
 <pinref part="+3V7" gate="G$1" pin="+3V3"/>
-<pinref part="Q2" gate="G$1" pin="S"/>
+<pinref part="T1" gate="G$1" pin="S"/>
 <wire x1="88.9" y1="-12.7" x2="88.9" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -12549,9 +12548,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <label x="83.82" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$3" pin="PORTB_7"/>
-<wire x1="38.1" y1="127" x2="30.48" y2="127" width="0.1524" layer="91"/>
-<label x="30.48" y="127" size="1.778" layer="95"/>
+<pinref part="IC3" gate="G$2" pin="PORTA_3"/>
+<wire x1="-17.78" y1="106.68" x2="-25.4" y2="106.68" width="0.1524" layer="91"/>
+<label x="-25.4" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PWM4" class="0">
@@ -12867,7 +12866,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="Q2" gate="G$1" pin="D"/>
+<pinref part="T1" gate="G$1" pin="D"/>
 <wire x1="88.9" y1="-22.86" x2="99.06" y2="-22.86" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="-22.86" x2="99.06" y2="0" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="0" x2="81.28" y2="0" width="0.1524" layer="91"/>
@@ -12878,7 +12877,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </net>
 <net name="SP_PWR" class="0">
 <segment>
-<pinref part="Q2" gate="G$1" pin="G"/>
+<pinref part="T1" gate="G$1" pin="G"/>
 <wire x1="83.82" y1="-15.24" x2="71.12" y2="-15.24" width="0.1524" layer="91"/>
 <label x="71.12" y="-15.24" size="1.778" layer="95"/>
 </segment>
@@ -12942,9 +12941,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <label x="144.78" y="58.42" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$2" pin="PORTA_3"/>
-<wire x1="-17.78" y1="106.68" x2="-25.4" y2="106.68" width="0.1524" layer="91"/>
-<label x="-25.4" y="106.68" size="1.778" layer="95"/>
+<pinref part="IC3" gate="G$2" pin="PORTA_4"/>
+<wire x1="-17.78" y1="111.76" x2="-25.4" y2="111.76" width="0.1524" layer="91"/>
+<label x="-25.4" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="C11" class="0">

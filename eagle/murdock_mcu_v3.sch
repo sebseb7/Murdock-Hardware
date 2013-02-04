@@ -12963,6 +12963,8 @@ I2C</description>
 <part name="IC5" library="microchip" deviceset="24*" device="SN" technology="LC16B"/>
 <part name="+3V13" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
+<part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0402-RES" value="15k"/>
+<part name="P+4" library="supply1" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13061,6 +13063,8 @@ I2C</description>
 <instance part="IC5" gate="G$1" x="124.46" y="114.3"/>
 <instance part="+3V13" gate="G$1" x="132.08" y="134.62"/>
 <instance part="GND29" gate="1" x="111.76" y="101.6"/>
+<instance part="R7" gate="G$1" x="78.74" y="-10.16" rot="R180"/>
+<instance part="P+4" gate="1" x="-30.48" y="137.16" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -13301,6 +13305,9 @@ I2C</description>
 <pinref part="+3V7" gate="G$1" pin="+3V3"/>
 <pinref part="T1" gate="G$1" pin="S"/>
 <wire x1="88.9" y1="-12.7" x2="88.9" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="-10.16" x2="88.9" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="88.9" y="-10.16"/>
 </segment>
 <segment>
 <wire x1="195.58" y1="137.16" x2="200.66" y2="137.16" width="0.1524" layer="91"/>
@@ -13374,6 +13381,15 @@ I2C</description>
 <wire x1="35.56" y1="68.58" x2="35.56" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="71.12" x2="50.8" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="VBUS"/>
+<wire x1="35.56" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
+<junction x="35.56" y="71.12"/>
+<label x="25.4" y="71.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$2" pin="PORTA_9"/>
+<wire x1="-17.78" y1="137.16" x2="-27.94" y2="137.16" width="0.1524" layer="91"/>
+<label x="-27.94" y="137.16" size="1.778" layer="95"/>
+<pinref part="P+4" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -13756,8 +13772,12 @@ I2C</description>
 <net name="SP_PWR" class="0">
 <segment>
 <pinref part="T1" gate="G$1" pin="G"/>
-<wire x1="83.82" y1="-15.24" x2="71.12" y2="-15.24" width="0.1524" layer="91"/>
-<label x="71.12" y="-15.24" size="1.778" layer="95"/>
+<wire x1="83.82" y1="-15.24" x2="73.66" y2="-15.24" width="0.1524" layer="91"/>
+<label x="60.96" y="-15.24" size="1.778" layer="95"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="73.66" y1="-15.24" x2="60.96" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-10.16" x2="73.66" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="73.66" y="-15.24"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$3" pin="PORTB_12"/>

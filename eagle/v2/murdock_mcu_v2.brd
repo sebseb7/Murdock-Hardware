@@ -149,10 +149,10 @@
 <text x="21.55" y="27.75" size="0.8128" layer="22" font="vector" ratio="10" rot="MR0">FLAPS</text>
 <text x="21.55" y="29.35" size="0.8128" layer="22" font="vector" ratio="10" rot="MR0">AILERON 2</text>
 <text x="10.3" y="27.75" size="0.8128" layer="22" font="vector" ratio="10" rot="MR0">CH7</text>
-<text x="6" y="1.7" size="0.8128" layer="22" font="vector" ratio="10" rot="SMR180">SP1</text>
-<text x="12.1" y="1.7" size="0.8128" layer="22" font="vector" ratio="10" rot="SMR180">SP2</text>
-<text x="22.4" y="2.7" size="0.8128" layer="22" font="vector" ratio="10" rot="SMR180">GPS</text>
-<text x="35.35" y="2.8" size="0.8128" layer="22" font="vector" ratio="10" rot="SMR180">AUX</text>
+<text x="8.05" y="0.85" size="0.8128" layer="22" font="vector" ratio="10" rot="SMR0">SP1</text>
+<text x="13.75" y="0.9" size="0.8128" layer="22" font="vector" ratio="10" rot="SMR0">SP2</text>
+<text x="24.45" y="1.9" size="0.8128" layer="22" font="vector" ratio="10" rot="SMR0">GPS</text>
+<text x="37.55" y="1.95" size="0.8128" layer="22" font="vector" ratio="10" rot="SMR0">AUX</text>
 <wire x1="12.65" y1="28.95" x2="5.35" y2="28.95" width="0.254" layer="22"/>
 <wire x1="5.35" y1="28.95" x2="5.35" y2="30.6" width="0.254" layer="22"/>
 <wire x1="5.35" y1="30.6" x2="12.65" y2="30.6" width="0.254" layer="22"/>

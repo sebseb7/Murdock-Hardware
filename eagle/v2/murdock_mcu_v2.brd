@@ -142,13 +142,13 @@
 <text x="18.35" y="18.9" size="1.4224" layer="22" font="vector" ratio="10" rot="MR0">MURDOCK</text>
 <text x="21.3" y="15.95" size="1.4224" layer="22" font="vector" ratio="10" rot="MR0">seb@exse.net</text>
 <text x="11.75" y="29.35" size="0.8128" layer="22" font="vector" ratio="10" rot="MR0">SBUS/PPM</text>
-<text x="40.15" y="27.65" size="0.8128" layer="22" font="vector" ratio="10" rot="MR0">SRV1/AIL</text>
-<text x="40.15" y="29.3" size="0.8128" layer="22" font="vector" ratio="10" rot="MR0">SRV2/ELV</text>
-<text x="30.8" y="27.7" size="0.8128" layer="22" font="vector" ratio="10" rot="MR0">SRV3/THR</text>
-<text x="30.8" y="29.35" size="0.8128" layer="22" font="vector" ratio="10" rot="MR0">SRV4/RUD</text>
-<text x="21.55" y="27.75" size="0.8128" layer="22" font="vector" ratio="10" rot="MR0">SRV5/AIL2</text>
-<text x="21.55" y="29.35" size="0.8128" layer="22" font="vector" ratio="10" rot="MR0">SRV6</text>
-<text x="10.3" y="27.75" size="0.8128" layer="22" font="vector" ratio="10" rot="MR0">SRV7</text>
+<text x="40.15" y="27.65" size="0.8128" layer="22" font="vector" ratio="10" rot="MR0">AILERON</text>
+<text x="40.15" y="29.3" size="0.8128" layer="22" font="vector" ratio="10" rot="MR0">ELEVATOR</text>
+<text x="30.8" y="27.7" size="0.8128" layer="22" font="vector" ratio="10" rot="MR0">THROTTLE</text>
+<text x="30.8" y="29.35" size="0.8128" layer="22" font="vector" ratio="10" rot="MR0">RUDDER</text>
+<text x="21.55" y="27.75" size="0.8128" layer="22" font="vector" ratio="10" rot="MR0">FLAPS</text>
+<text x="21.55" y="29.35" size="0.8128" layer="22" font="vector" ratio="10" rot="MR0">AILERON 2</text>
+<text x="10.3" y="27.75" size="0.8128" layer="22" font="vector" ratio="10" rot="MR0">CH7</text>
 <text x="6" y="1.7" size="0.8128" layer="22" font="vector" ratio="10" rot="SMR180">SP1</text>
 <text x="12.1" y="1.7" size="0.8128" layer="22" font="vector" ratio="10" rot="SMR180">SP2</text>
 <text x="22.4" y="2.7" size="0.8128" layer="22" font="vector" ratio="10" rot="SMR180">GPS</text>

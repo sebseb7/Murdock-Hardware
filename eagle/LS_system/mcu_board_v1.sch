@@ -11241,7 +11241,6 @@ TS-003</description>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0402-RES" value="15k"/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0402-RES" value="15k"/>
 </parts>
 <sheets>
 <sheet>
@@ -11304,7 +11303,6 @@ TS-003</description>
 <instance part="P+4" gate="1" x="-27.94" y="137.16" rot="R90"/>
 <instance part="R5" gate="G$1" x="-86.36" y="111.76" rot="R90"/>
 <instance part="GND3" gate="1" x="-86.36" y="104.14" smashed="yes"/>
-<instance part="R6" gate="G$1" x="-60.96" y="48.26"/>
 </instances>
 <busses>
 </busses>

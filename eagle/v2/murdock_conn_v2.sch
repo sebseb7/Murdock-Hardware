@@ -900,9 +900,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="U$11" library="seb" deviceset="S3B-ZR" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="S2" library="switch-tact" deviceset="LSH" device="" value=""/>
-<part name="S1" library="switch-tact" deviceset="LSH" device="" value=""/>
-<part name="S3" library="switch-tact" deviceset="LSH" device="" value=""/>
+<part name="S2" library="switch-tact" deviceset="LSH" device="" value="min: &quot;taster 9318&quot; max: &quot;taster 9319&quot;"/>
+<part name="S1" library="switch-tact" deviceset="LSH" device="" value="min: &quot;taster 9318&quot; max: &quot;taster 9319&quot;"/>
+<part name="S3" library="switch-tact" deviceset="LSH" device="" value="min: &quot;taster 9318&quot; max: &quot;taster 9319&quot;"/>
 <part name="X7" library="murdock" deviceset="MURDOCK_STACK" device=""/>
 <part name="P+3" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 </parts>

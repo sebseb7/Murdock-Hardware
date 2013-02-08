@@ -522,13 +522,13 @@ design rules under a new name.</description>
 </element>
 <element name="U$10" library="seb" package="S3B-ZR" value="S3B-ZR" x="6.985" y="4.1275" smashed="yes" rot="MR0"/>
 <element name="U$11" library="seb" package="S3B-ZR" value="S3B-ZR" x="13.335" y="4.1275" smashed="yes" rot="MR0"/>
-<element name="S2" library="switch-tact" package="LSH" value="" x="36.195" y="8.255" smashed="yes" rot="R180">
+<element name="S2" library="switch-tact" package="LSH" value="min: &quot;taster 9318&quot; max: &quot;taster 9319&quot;" x="36.195" y="8.255" smashed="yes" rot="R180">
 <attribute name="VALUE" x="38.735" y="13.335" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="S1" library="switch-tact" package="LSH" value="" x="10.16" y="8.255" smashed="yes" rot="R180">
+<element name="S1" library="switch-tact" package="LSH" value="min: &quot;taster 9318&quot; max: &quot;taster 9319&quot;" x="10.16" y="8.255" smashed="yes" rot="R180">
 <attribute name="VALUE" x="12.7" y="13.335" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="S3" library="switch-tact" package="LSH" value="" x="23.1775" y="8.255" smashed="yes" rot="R180">
+<element name="S3" library="switch-tact" package="LSH" value="min: &quot;taster 9318&quot; max: &quot;taster 9319&quot;" x="23.1775" y="8.255" smashed="yes" rot="R180">
 <attribute name="VALUE" x="25.7175" y="13.335" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="X7" library="murdock" package="MURDOCK_STACK" value="MURDOCK_STACK" x="0" y="0"/>

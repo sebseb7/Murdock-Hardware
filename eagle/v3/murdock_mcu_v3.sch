@@ -12875,6 +12875,65 @@ I2C</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="transistor">
+<packages>
+<package name="SOT23">
+<description>&lt;b&gt;SOT-23&lt;/b&gt;</description>
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
+<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
+<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="NPN">
+<wire x1="2.54" y1="2.54" x2="0.508" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="-1.524" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="1.778" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="1.54" y1="-2.04" x2="0.308" y2="-1.424" width="0.1524" layer="94"/>
+<wire x1="1.524" y1="-2.413" x2="2.286" y2="-2.413" width="0.254" layer="94"/>
+<wire x1="2.286" y1="-2.413" x2="1.778" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="1.778" y1="-1.778" x2="1.524" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-2.286" x2="1.905" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="1.905" y1="-2.286" x2="1.778" y2="-2.032" width="0.254" layer="94"/>
+<text x="-10.16" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="2.54" layer="94"/>
+<pin name="B" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="E" x="2.54" y="-5.08" visible="off" length="short" direction="pas" swaplevel="3" rot="R90"/>
+<pin name="C" x="2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="2" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BC847" prefix="T">
+<description>&lt;b&gt;NPN TRANSISTOR&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="3"/>
+<connect gate="G$1" pin="E" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -12965,6 +13024,11 @@ I2C</description>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0402-RES" value="15k"/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
+<part name="T2" library="transistor" deviceset="BC847" device="" value="BC817"/>
+<part name="+3V14" library="supply1" deviceset="+3V3" device=""/>
+<part name="GND30" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0402-RES" value="1k"/>
+<part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="0402-RES" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -13065,6 +13129,11 @@ I2C</description>
 <instance part="GND29" gate="1" x="111.76" y="101.6"/>
 <instance part="R7" gate="G$1" x="78.74" y="-10.16" rot="R180"/>
 <instance part="P+4" gate="1" x="-30.48" y="137.16" rot="R90"/>
+<instance part="T2" gate="G$1" x="-27.94" y="53.34"/>
+<instance part="+3V14" gate="G$1" x="-25.4" y="78.74"/>
+<instance part="GND30" gate="1" x="-25.4" y="40.64" smashed="yes"/>
+<instance part="R8" gate="G$1" x="-25.4" y="68.58" rot="R90"/>
+<instance part="R9" gate="G$1" x="-40.64" y="53.34" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -13245,6 +13314,11 @@ I2C</description>
 <junction x="111.76" y="104.14"/>
 <wire x1="111.76" y1="104.14" x2="111.76" y2="109.22" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="-25.4" y1="48.26" x2="-25.4" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="T2" gate="G$1" pin="E"/>
+<pinref part="GND30" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -13354,6 +13428,11 @@ I2C</description>
 <pinref part="+3V13" gate="G$1" pin="+3V3"/>
 <wire x1="132.08" y1="132.08" x2="132.08" y2="127" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<wire x1="-25.4" y1="73.66" x2="-25.4" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="+3V14" gate="G$1" pin="+3V3"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -13432,9 +13511,9 @@ I2C</description>
 <label x="83.82" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$2" pin="PORTA_3"/>
-<wire x1="-17.78" y1="106.68" x2="-25.4" y2="106.68" width="0.1524" layer="91"/>
-<label x="-25.4" y="106.68" size="1.778" layer="95"/>
+<wire x1="-55.88" y1="53.34" x2="-45.72" y2="53.34" width="0.1524" layer="91"/>
+<label x="-55.88" y="53.34" size="1.778" layer="95"/>
+<pinref part="R9" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="PWM4" class="0">
@@ -13868,6 +13947,26 @@ I2C</description>
 <pinref part="X2" gate="G$1" pin="SDA"/>
 <wire x1="137.16" y1="12.7" x2="147.32" y2="12.7" width="0.1524" layer="91"/>
 <label x="142.24" y="12.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<wire x1="-35.56" y1="53.34" x2="-30.48" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="T2" gate="G$1" pin="B"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="T2" gate="G$1" pin="C"/>
+<wire x1="-25.4" y1="58.42" x2="-25.4" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="60.96" x2="-25.4" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="60.96" x2="-33.02" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="60.96" x2="-33.02" y2="106.68" width="0.1524" layer="91"/>
+<junction x="-25.4" y="60.96"/>
+<pinref part="IC3" gate="G$2" pin="PORTA_3"/>
+<wire x1="-33.02" y1="106.68" x2="-17.78" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>

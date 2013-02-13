@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -13679,11 +13679,6 @@ I2C</description>
 </net>
 <net name="SDA" class="0">
 <segment>
-<pinref part="X2" gate="G$1" pin="SDA"/>
-<wire x1="137.16" y1="12.7" x2="147.32" y2="12.7" width="0.1524" layer="91"/>
-<label x="142.24" y="12.7" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC3" gate="G$3" pin="PORTB_11"/>
 <wire x1="38.1" y1="147.32" x2="30.48" y2="147.32" width="0.1524" layer="91"/>
 <label x="30.48" y="147.32" size="1.778" layer="95"/>
@@ -13706,11 +13701,6 @@ I2C</description>
 </segment>
 </net>
 <net name="SCL" class="0">
-<segment>
-<pinref part="X2" gate="G$1" pin="SCL"/>
-<wire x1="137.16" y1="17.78" x2="147.32" y2="17.78" width="0.1524" layer="91"/>
-<label x="142.24" y="17.78" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="IC3" gate="G$3" pin="PORTB_10"/>
 <wire x1="38.1" y1="142.24" x2="30.48" y2="142.24" width="0.1524" layer="91"/>
@@ -13854,6 +13844,30 @@ I2C</description>
 <pinref part="X2" gate="G$1" pin="SP1"/>
 <wire x1="96.52" y1="17.78" x2="86.36" y2="17.78" width="0.1524" layer="91"/>
 <label x="86.36" y="17.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SCL2" class="0">
+<segment>
+<pinref part="IC3" gate="G$2" pin="PORTA_8"/>
+<wire x1="-17.78" y1="132.08" x2="-25.4" y2="132.08" width="0.1524" layer="91"/>
+<label x="-25.4" y="132.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X2" gate="G$1" pin="SCL"/>
+<wire x1="137.16" y1="17.78" x2="147.32" y2="17.78" width="0.1524" layer="91"/>
+<label x="142.24" y="17.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SDA2" class="0">
+<segment>
+<pinref part="IC3" gate="G$4" pin="PORTC_9"/>
+<wire x1="-7.62" y1="38.1" x2="-15.24" y2="38.1" width="0.1524" layer="91"/>
+<label x="-15.24" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="X2" gate="G$1" pin="SDA"/>
+<wire x1="137.16" y1="12.7" x2="147.32" y2="12.7" width="0.1524" layer="91"/>
+<label x="142.24" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

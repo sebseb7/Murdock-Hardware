@@ -1383,6 +1383,124 @@ Push-push type uSD socket. Schematic element and footprint production proven. Sp
 <smd name="1" x="0.9" y="0.7" dx="1.3" dy="1.1" layer="1"/>
 <smd name="4" x="0.9" y="-0.7" dx="1.3" dy="1.1" layer="1"/>
 </package>
+<package name="MAKE-DD_LOGO">
+<polygon width="0" layer="21">
+<vertex x="0.31" y="0.57"/>
+<vertex x="0.31" y="1.56"/>
+<vertex x="1.56" y="1.56" curve="-90"/>
+<vertex x="1.76" y="1.36"/>
+<vertex x="1.76" y="0.57"/>
+<vertex x="1.51" y="0.57"/>
+<vertex x="1.51" y="1.31"/>
+<vertex x="1.16" y="1.31"/>
+<vertex x="1.16" y="0.57"/>
+<vertex x="0.91" y="0.57"/>
+<vertex x="0.91" y="1.31"/>
+<vertex x="0.56" y="1.31"/>
+<vertex x="0.56" y="0.57"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="2" y="1.56"/>
+<vertex x="2.8" y="1.56" curve="-90"/>
+<vertex x="3" y="1.36"/>
+<vertex x="3" y="0.58"/>
+<vertex x="2.76" y="0.58"/>
+<vertex x="2.75" y="0.58"/>
+<vertex x="2.75" y="0.97"/>
+<vertex x="2.26" y="0.97"/>
+<vertex x="2.26" y="0.83"/>
+<vertex x="2.75" y="0.83"/>
+<vertex x="2.75" y="0.58"/>
+<vertex x="2.15" y="0.58" curve="-90"/>
+<vertex x="2" y="0.73"/>
+<vertex x="2" y="0.77"/>
+<vertex x="2" y="1.2"/>
+<vertex x="2.75" y="1.2"/>
+<vertex x="2.75" y="1.31"/>
+<vertex x="2" y="1.31"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="3.2" y="0.58"/>
+<vertex x="3.2" y="1.89"/>
+<vertex x="3.45" y="1.89"/>
+<vertex x="3.45" y="1.2"/>
+<vertex x="3.61" y="1.2"/>
+<vertex x="3.94" y="1.56"/>
+<vertex x="4.19" y="1.56"/>
+<vertex x="4.19" y="1.47"/>
+<vertex x="3.82" y="1.07"/>
+<vertex x="4.19" y="0.67"/>
+<vertex x="4.19" y="0.57"/>
+<vertex x="3.94" y="0.57"/>
+<vertex x="3.59" y="0.94"/>
+<vertex x="3.45" y="0.94"/>
+<vertex x="3.45" y="0.58"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="5.32" y="0.58"/>
+<vertex x="4.47" y="0.58" curve="-90"/>
+<vertex x="4.32" y="0.73"/>
+<vertex x="4.32" y="0.76"/>
+<vertex x="4.32" y="1.16"/>
+<vertex x="5.07" y="1.16"/>
+<vertex x="5.07" y="1.31"/>
+<vertex x="4.57" y="1.31"/>
+<vertex x="4.57" y="1.16"/>
+<vertex x="4.32" y="1.16"/>
+<vertex x="4.32" y="1.39" curve="-90"/>
+<vertex x="4.49" y="1.56"/>
+<vertex x="4.51" y="1.56"/>
+<vertex x="5.13" y="1.56" curve="-90"/>
+<vertex x="5.32" y="1.37"/>
+<vertex x="5.32" y="1.35"/>
+<vertex x="5.32" y="0.94"/>
+<vertex x="4.57" y="0.94"/>
+<vertex x="4.57" y="0.82"/>
+<vertex x="5.32" y="0.82"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="6.08" y="0.95"/>
+<vertex x="6.08" y="1.2"/>
+<vertex x="6.79" y="1.2"/>
+<vertex x="6.79" y="0.95"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="7.92" y="0.58"/>
+<vertex x="7.08" y="0.58" curve="-90"/>
+<vertex x="6.92" y="0.74"/>
+<vertex x="6.92" y="0.76"/>
+<vertex x="6.92" y="1.37" curve="-90"/>
+<vertex x="7.11" y="1.56"/>
+<vertex x="7.12" y="1.56"/>
+<vertex x="7.66" y="1.56"/>
+<vertex x="7.66" y="1.88"/>
+<vertex x="7.92" y="1.88"/>
+<vertex x="7.92" y="1.31"/>
+<vertex x="7.17" y="1.31"/>
+<vertex x="7.17" y="0.83"/>
+<vertex x="7.66" y="0.83"/>
+<vertex x="7.66" y="1.31"/>
+<vertex x="7.92" y="1.31"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="9.08" y="0.58"/>
+<vertex x="8.24" y="0.58" curve="-90"/>
+<vertex x="8.08" y="0.74"/>
+<vertex x="8.08" y="0.76"/>
+<vertex x="8.08" y="1.37" curve="-90"/>
+<vertex x="8.27" y="1.56"/>
+<vertex x="8.28" y="1.56"/>
+<vertex x="8.82" y="1.56"/>
+<vertex x="8.82" y="1.88"/>
+<vertex x="9.08" y="1.88"/>
+<vertex x="9.08" y="1.31"/>
+<vertex x="8.33" y="1.31"/>
+<vertex x="8.33" y="0.83"/>
+<vertex x="8.82" y="0.83"/>
+<vertex x="8.82" y="1.31"/>
+<vertex x="9.08" y="1.31"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="Q">
@@ -1439,6 +1557,9 @@ Push-push type uSD socket. Schematic element and footprint production proven. Sp
 <pin name="11" x="30.48" y="-20.32" length="middle" rot="R180"/>
 <pin name="P" x="-27.94" y="-7.62" length="middle"/>
 </symbol>
+<symbol name="MAKE-DD_LOGO">
+<text x="0" y="0" size="0.8128" layer="94" font="vector">make -dd logo</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="X22-OSCILLATOR" prefix="L" uservalue="yes">
@@ -1480,6 +1601,18 @@ Push-push type uSD socket. Schematic element and footprint production proven. Sp
 <connect gate="G$1" pin="9" pad="9"/>
 <connect gate="G$1" pin="P" pad="P"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MAKE-DD_LOGO">
+<gates>
+<gate name="G$1" symbol="MAKE-DD_LOGO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MAKE-DD_LOGO">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -13032,6 +13165,7 @@ I2C</description>
 <part name="R10" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="4k7"/>
 <part name="R11" library="SparkFun" deviceset="RESISTOR" device="0402-RES" value="4k7"/>
 <part name="+3V15" library="supply1" deviceset="+3V3" device=""/>
+<part name="U$1" library="seb" deviceset="MAKE-DD_LOGO" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13140,6 +13274,7 @@ I2C</description>
 <instance part="R10" gate="G$1" x="162.56" y="22.86" rot="R90"/>
 <instance part="R11" gate="G$1" x="167.64" y="17.78" rot="R90"/>
 <instance part="+3V15" gate="G$1" x="167.64" y="35.56"/>
+<instance part="U$1" gate="G$1" x="284.48" y="-22.86"/>
 </instances>
 <busses>
 </busses>

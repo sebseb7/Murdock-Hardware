@@ -37,7 +37,7 @@
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -1862,52 +1862,122 @@ We've spent an enormous amount of time creating and checking these footprints an
 <smd name="1" x="0.9" y="0.7" dx="1.3" dy="1.1" layer="1"/>
 <smd name="4" x="0.9" y="-0.7" dx="1.3" dy="1.1" layer="1"/>
 </package>
-<package name="C3D2_LOGO_SMALL">
-<polygon width="0.1" layer="21">
-<vertex x="0" y="0"/>
-<vertex x="0.6" y="1"/>
-<vertex x="1.1" y="1"/>
-<vertex x="0.5" y="0"/>
-<vertex x="1.1" y="-1"/>
-<vertex x="0.6" y="-1"/>
+<package name="MAKE-DD_LOGO">
+<polygon width="0" layer="21">
+<vertex x="0.31" y="0.57"/>
+<vertex x="0.31" y="1.56"/>
+<vertex x="1.56" y="1.56" curve="-90"/>
+<vertex x="1.76" y="1.36"/>
+<vertex x="1.76" y="0.57"/>
+<vertex x="1.51" y="0.57"/>
+<vertex x="1.51" y="1.31"/>
+<vertex x="1.16" y="1.31"/>
+<vertex x="1.16" y="0.57"/>
+<vertex x="0.91" y="0.57"/>
+<vertex x="0.91" y="1.31"/>
+<vertex x="0.56" y="1.31"/>
+<vertex x="0.56" y="0.57"/>
 </polygon>
-<polygon width="0.1" layer="21">
-<vertex x="0.8" y="0"/>
-<vertex x="1.4" y="1"/>
-<vertex x="1.9" y="1"/>
-<vertex x="1.3" y="0"/>
-<vertex x="1.9" y="-1"/>
-<vertex x="1.4" y="-1"/>
+<polygon width="0" layer="21">
+<vertex x="2" y="1.56"/>
+<vertex x="2.8" y="1.56" curve="-90"/>
+<vertex x="3" y="1.36"/>
+<vertex x="3" y="0.58"/>
+<vertex x="2.76" y="0.58"/>
+<vertex x="2.75" y="0.58"/>
+<vertex x="2.75" y="0.97"/>
+<vertex x="2.26" y="0.97"/>
+<vertex x="2.26" y="0.83"/>
+<vertex x="2.75" y="0.83"/>
+<vertex x="2.75" y="0.58"/>
+<vertex x="2.15" y="0.58" curve="-90"/>
+<vertex x="2" y="0.73"/>
+<vertex x="2" y="0.77"/>
+<vertex x="2" y="1.2"/>
+<vertex x="2.75" y="1.2"/>
+<vertex x="2.75" y="1.31"/>
+<vertex x="2" y="1.31"/>
 </polygon>
-<polygon width="0.1" layer="21">
-<vertex x="1.6" y="0"/>
-<vertex x="2.2" y="1"/>
-<vertex x="2.7" y="1"/>
-<vertex x="2.1" y="0"/>
-<vertex x="2.7" y="-1"/>
-<vertex x="2.2" y="-1"/>
+<polygon width="0" layer="21">
+<vertex x="3.2" y="0.58"/>
+<vertex x="3.2" y="1.89"/>
+<vertex x="3.45" y="1.89"/>
+<vertex x="3.45" y="1.2"/>
+<vertex x="3.61" y="1.2"/>
+<vertex x="3.94" y="1.56"/>
+<vertex x="4.19" y="1.56"/>
+<vertex x="4.19" y="1.47"/>
+<vertex x="3.82" y="1.07"/>
+<vertex x="4.19" y="0.67"/>
+<vertex x="4.19" y="0.57"/>
+<vertex x="3.94" y="0.57"/>
+<vertex x="3.59" y="0.94"/>
+<vertex x="3.45" y="0.94"/>
+<vertex x="3.45" y="0.58"/>
 </polygon>
-<polygon width="0.1" layer="21">
-<vertex x="5.4" y="0"/>
-<vertex x="4.8" y="-1"/>
-<vertex x="4.3" y="-1"/>
-<vertex x="4.9" y="0"/>
-<vertex x="4.3" y="1"/>
-<vertex x="4.8" y="1"/>
+<polygon width="0" layer="21">
+<vertex x="5.32" y="0.58"/>
+<vertex x="4.47" y="0.58" curve="-90"/>
+<vertex x="4.32" y="0.73"/>
+<vertex x="4.32" y="0.76"/>
+<vertex x="4.32" y="1.16"/>
+<vertex x="5.07" y="1.16"/>
+<vertex x="5.07" y="1.31"/>
+<vertex x="4.57" y="1.31"/>
+<vertex x="4.57" y="1.16"/>
+<vertex x="4.32" y="1.16"/>
+<vertex x="4.32" y="1.39" curve="-90"/>
+<vertex x="4.49" y="1.56"/>
+<vertex x="4.51" y="1.56"/>
+<vertex x="5.13" y="1.56" curve="-90"/>
+<vertex x="5.32" y="1.37"/>
+<vertex x="5.32" y="1.35"/>
+<vertex x="5.32" y="0.94"/>
+<vertex x="4.57" y="0.94"/>
+<vertex x="4.57" y="0.82"/>
+<vertex x="5.32" y="0.82"/>
 </polygon>
-<polygon width="0.1" layer="21">
-<vertex x="2.9" y="-1"/>
-<vertex x="3.6" y="1"/>
-<vertex x="4.1" y="1"/>
-<vertex x="3.4" y="-1"/>
+<polygon width="0" layer="21">
+<vertex x="6.08" y="0.95"/>
+<vertex x="6.08" y="1.2"/>
+<vertex x="6.79" y="1.2"/>
+<vertex x="6.79" y="0.95"/>
 </polygon>
-<polygon width="0.1" layer="21">
-<vertex x="6.2" y="0"/>
-<vertex x="5.6" y="-1"/>
-<vertex x="5.1" y="-1"/>
-<vertex x="5.7" y="0"/>
-<vertex x="5.1" y="1"/>
-<vertex x="5.6" y="1"/>
+<polygon width="0" layer="21">
+<vertex x="7.92" y="0.58"/>
+<vertex x="7.08" y="0.58" curve="-90"/>
+<vertex x="6.92" y="0.74"/>
+<vertex x="6.92" y="0.76"/>
+<vertex x="6.92" y="1.37" curve="-90"/>
+<vertex x="7.11" y="1.56"/>
+<vertex x="7.12" y="1.56"/>
+<vertex x="7.66" y="1.56"/>
+<vertex x="7.66" y="1.88"/>
+<vertex x="7.92" y="1.88"/>
+<vertex x="7.92" y="1.31"/>
+<vertex x="7.17" y="1.31"/>
+<vertex x="7.17" y="0.83"/>
+<vertex x="7.66" y="0.83"/>
+<vertex x="7.66" y="1.31"/>
+<vertex x="7.92" y="1.31"/>
+</polygon>
+<polygon width="0" layer="21">
+<vertex x="9.08" y="0.58"/>
+<vertex x="8.24" y="0.58" curve="-90"/>
+<vertex x="8.08" y="0.74"/>
+<vertex x="8.08" y="0.76"/>
+<vertex x="8.08" y="1.37" curve="-90"/>
+<vertex x="8.27" y="1.56"/>
+<vertex x="8.28" y="1.56"/>
+<vertex x="8.82" y="1.56"/>
+<vertex x="8.82" y="1.88"/>
+<vertex x="9.08" y="1.88"/>
+<vertex x="9.08" y="1.31"/>
+<vertex x="8.33" y="1.31"/>
+<vertex x="8.33" y="0.83"/>
+<vertex x="8.82" y="0.83"/>
+<vertex x="8.82" y="1.31"/>
+<vertex x="9.08" y="1.31"/>
 </polygon>
 </package>
 </packages>
@@ -2515,7 +2585,6 @@ design rules under a new name.</description>
 <attribute name="NAME" x="36.7515" y="21.911" size="0.8128" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="36.293" y="21.9205" size="0.4064" layer="27" rot="R90"/>
 </element>
-<element name="U$1" library="seb" package="C3D2_LOGO_SMALL" value="" x="17.1" y="22.55" rot="MR0"/>
 <element name="IC4" library="SparkFun-Sensors" package="BMP085" value="BMP085" x="26" y="26.7" smashed="yes" rot="R270"/>
 <element name="JP1" library="SparkFun-Connectors" package="USB-MICROB" value="USB-MICROB" x="17.5" y="30.3" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="CONN-09505" x="17.5" y="30.3" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2557,6 +2626,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="39.689" y="1.8015" size="0.8128" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="41.8795" y="2.543" size="0.4064" layer="27" rot="R180"/>
 </element>
+<element name="U$1" library="seb" package="MAKE-DD_LOGO" value="MAKE-DD_LOGO" x="18.2" y="22.6" rot="MR0"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -2590,7 +2660,7 @@ design rules under a new name.</description>
 <wire x1="6.985" y1="23.835" x2="6.95" y2="25.2" width="0.4064" layer="1"/>
 <wire x1="6.95" y1="25.2" x2="9.45" y2="25.2" width="0.4064" layer="1"/>
 <via x="16.85" y="20.85" extent="1-16" drill="0.6"/>
-<via x="29.95" y="14.35" extent="1-16" drill="0.6"/>
+<via x="30.15" y="14.15" extent="1-16" drill="0.6"/>
 <via x="42.05" y="30.05" extent="1-16" drill="0.6"/>
 <via x="21.5" y="17.55" extent="1-16" drill="0.6"/>
 <contactref element="C4" pad="2"/>
@@ -2619,7 +2689,7 @@ design rules under a new name.</description>
 <via x="32.15" y="10.3" extent="1-16" drill="0.6"/>
 <wire x1="39.0025" y1="12.2475" x2="37.3025" y2="12.2475" width="0.3048" layer="1"/>
 <via x="19.6" y="9.65" extent="1-16" drill="0.6"/>
-<via x="23.95" y="21.35" extent="1-16" drill="0.6"/>
+<via x="23.95" y="20.75" extent="1-16" drill="0.6"/>
 <via x="13.35" y="28.4" extent="1-16" drill="0.6"/>
 <via x="12.45" y="26.1" extent="1-16" drill="0.6"/>
 <via x="6.95" y="25.15" extent="1-16" drill="0.6"/>

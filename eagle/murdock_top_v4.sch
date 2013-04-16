@@ -1491,31 +1491,11 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="119.38" y1="53.34" x2="106.68" y2="53.34" width="0.1524" layer="91"/>
 <label x="106.68" y="53.34" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="5V" class="0">
 <segment>
-<pinref part="LED1" gate="G$1" pin="A"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
-<wire x1="-55.88" y1="96.52" x2="-55.88" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="LED3" gate="G$1" pin="A"/>
-<wire x1="-55.88" y1="88.9" x2="-55.88" y2="81.28" width="0.1524" layer="91"/>
-<junction x="-55.88" y="88.9"/>
-<pinref part="LED4" gate="G$1" pin="A"/>
-<wire x1="-55.88" y1="81.28" x2="-55.88" y2="73.66" width="0.1524" layer="91"/>
-<junction x="-55.88" y="81.28"/>
-<pinref part="LED5" gate="G$1" pin="A"/>
-<wire x1="-55.88" y1="73.66" x2="-55.88" y2="66.04" width="0.1524" layer="91"/>
-<junction x="-55.88" y="73.66"/>
-<pinref part="LED6" gate="G$1" pin="A"/>
-<wire x1="-55.88" y1="66.04" x2="-55.88" y2="58.42" width="0.1524" layer="91"/>
-<junction x="-55.88" y="66.04"/>
-<pinref part="LED7" gate="G$1" pin="A"/>
-<wire x1="-55.88" y1="58.42" x2="-55.88" y2="50.8" width="0.1524" layer="91"/>
-<junction x="-55.88" y="58.42"/>
-<pinref part="LED8" gate="G$1" pin="A"/>
-<wire x1="-55.88" y1="50.8" x2="-55.88" y2="43.18" width="0.1524" layer="91"/>
-<junction x="-55.88" y="50.8"/>
-<wire x1="-55.88" y1="96.52" x2="-55.88" y2="101.6" width="0.1524" layer="91"/>
-<junction x="-55.88" y="96.52"/>
-<label x="-58.42" y="101.6" size="1.778" layer="95"/>
+<pinref part="X1" gate="G$1" pin="5V"/>
+<wire x1="119.38" y1="78.74" x2="111.76" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="LED16" gate="G$1" pin="A"/>
@@ -1542,6 +1522,32 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="27.94" y1="96.52" x2="27.94" y2="101.6" width="0.1524" layer="91"/>
 <junction x="27.94" y="96.52"/>
 <label x="25.4" y="101.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
+<wire x1="-55.88" y1="96.52" x2="-55.88" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="LED3" gate="G$1" pin="A"/>
+<wire x1="-55.88" y1="88.9" x2="-55.88" y2="81.28" width="0.1524" layer="91"/>
+<junction x="-55.88" y="88.9"/>
+<pinref part="LED4" gate="G$1" pin="A"/>
+<wire x1="-55.88" y1="81.28" x2="-55.88" y2="73.66" width="0.1524" layer="91"/>
+<junction x="-55.88" y="81.28"/>
+<pinref part="LED5" gate="G$1" pin="A"/>
+<wire x1="-55.88" y1="73.66" x2="-55.88" y2="66.04" width="0.1524" layer="91"/>
+<junction x="-55.88" y="73.66"/>
+<pinref part="LED6" gate="G$1" pin="A"/>
+<wire x1="-55.88" y1="66.04" x2="-55.88" y2="58.42" width="0.1524" layer="91"/>
+<junction x="-55.88" y="66.04"/>
+<pinref part="LED7" gate="G$1" pin="A"/>
+<wire x1="-55.88" y1="58.42" x2="-55.88" y2="50.8" width="0.1524" layer="91"/>
+<junction x="-55.88" y="58.42"/>
+<pinref part="LED8" gate="G$1" pin="A"/>
+<wire x1="-55.88" y1="50.8" x2="-55.88" y2="43.18" width="0.1524" layer="91"/>
+<junction x="-55.88" y="50.8"/>
+<wire x1="-55.88" y1="96.52" x2="-55.88" y2="101.6" width="0.1524" layer="91"/>
+<junction x="-55.88" y="96.52"/>
+<label x="-58.42" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
